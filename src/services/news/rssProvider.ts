@@ -47,6 +47,7 @@ type LocalNewsItem = {
   summary?: string;
   source?: string;
   fetched_at?: string;
+  image_url?: string;
 };
 
 type LocalMeta = {
@@ -197,26 +198,37 @@ async function readLocalNewsJson(): Promise<NewsItem[]> {
       return [];
     }
 
-    return parsed
-      .map((item, index) => {
-        const title = stripHtml(item.title ?? "");
-        const readMoreUrl = (item.link ?? "").trim();
-        if (!title || !readMoreUrl) {
-          return null;
-        }
+    const mapped = parsed.map((item) => {
+      const title = stripHtml(item.title ?? "");
+      const readMoreUrl = (item.link ?? "").trim();
+      if (!title || !readMoreUrl) {
+        return null;
+      }
 
-        return {
-          id: `local-${index}-${readMoreUrl}`,
-          title,
-          summary: stripHtml(item.summary ?? "") || "暂无摘要，点击查看原文。",
-          imageUrl: FALLBACK_IMAGE,
-          publishedAt: item.published_iso ?? item.published ?? new Date().toISOString(),
-          originalPublished: item.published,
-          readMoreUrl,
-          source: item.source ?? "RSS"
-        };
-      })
-      .filter((item): item is NewsItem => item !== null);
+      const hash = (str: string) => {
+        let h = 0;
+        for (let i = 0; i < str.length; i++) {
+          h = (h << 5) - h + str.charCodeAt(i);
+          h = h & h;
+        }
+        return Math.abs(h).toString(16);
+      };
+
+      const id = `news-${hash(readMoreUrl)}-${hash(item.source || "")}`;
+
+      return {
+        id,
+        title,
+        summary: stripHtml(item.summary ?? "") || "暂无摘要，点击查看原文。",
+        imageUrl: (item.image_url as string | undefined) || FALLBACK_IMAGE,
+        publishedAt: item.published_iso ?? item.published ?? new Date().toISOString(),
+        originalPublished: item.published,
+        readMoreUrl,
+        source: item.source ?? "RSS"
+      } as NewsItem;
+    });
+
+    return mapped.filter((item): item is NewsItem => item !== null);
   } catch {
     return [];
   }

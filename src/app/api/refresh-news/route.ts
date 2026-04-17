@@ -1,5 +1,5 @@
 import { spawn, spawnSync } from "node:child_process";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { revalidatePath } from "next/cache";
@@ -92,6 +92,79 @@ function parseResultOutput(output: string): { newCount: number; totalCount: numb
   return { newCount: 0, totalCount: 0 };
 }
 
+function stripHtml(text: string): string {
+  return text.replace(/<[^>]*>/g, "").trim();
+}
+
+function generateId(url: string, source: string): string {
+  let h = 0;
+  for (let i = 0; i < url.length; i++) {
+    h = (h << 5) - h + url.charCodeAt(i);
+    h = h & h;
+  }
+  const urlHash = Math.abs(h).toString(16);
+  
+  h = 0;
+  for (let i = 0; i < source.length; i++) {
+    h = (h << 5) - h + source.charCodeAt(i);
+    h = h & h;
+  }
+  const sourceHash = Math.abs(h).toString(16);
+  
+  return `news-${urlHash}-${sourceHash}`;
+}
+
+function readNewsJson(): any[] {
+  const newsPath = join(process.cwd(), "ai_news.json");
+  const FALLBACK_IMAGE = "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80";
+  
+  if (existsSync(newsPath)) {
+    try {
+      const content = readFileSync(newsPath, "utf-8");
+      const data = JSON.parse(content);
+      
+      if (Array.isArray(data)) {
+        return data.map((item: any) => {
+          const title = stripHtml(item.title ?? "");
+          const readMoreUrl = (item.link ?? "").trim();
+          
+          if (!title || !readMoreUrl) {
+            return null;
+          }
+          
+          return {
+            id: generateId(readMoreUrl, item.source || ""),
+            title,
+            summary: stripHtml(item.summary ?? "") || "暂无摘要，点击查看原文。",
+            imageUrl: (item.image_url as string | undefined) || FALLBACK_IMAGE,
+            publishedAt: item.published_iso ?? item.published ?? new Date().toISOString(),
+            originalPublished: item.published,
+            readMoreUrl,
+            source: item.source ?? "RSS"
+          };
+        }).filter((item: any) => item !== null);
+      }
+      return [];
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
+
+function readMetaJson(): { last_refreshed_at?: string } {
+  const metaPath = join(process.cwd(), "ai_news_meta.json");
+  if (existsSync(metaPath)) {
+    try {
+      const content = readFileSync(metaPath, "utf-8");
+      return JSON.parse(content);
+    } catch {
+      return {};
+    }
+  }
+  return {};
+}
+
 export async function POST() {
   const pythonExec = resolvePythonExecutable();
   if (!pythonExec) {
@@ -106,11 +179,17 @@ export async function POST() {
     const output = result.stdout || result.stderr;
     const { newCount, totalCount } = parseResultOutput(output);
     revalidatePath("/");
+
+    const articles = readNewsJson();
+    const meta = readMetaJson();
+
     return NextResponse.json({
       ok: true,
       message: `刷新成功：新增 ${newCount} 条（总量 ${totalCount}）`,
       newCount,
       totalCount,
+      articles,
+      lastRefreshedAt: meta.last_refreshed_at || new Date().toISOString(),
       output: output.slice(-2000)
     });
   } catch (error) {

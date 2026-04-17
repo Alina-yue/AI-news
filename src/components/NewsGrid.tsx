@@ -7,11 +7,13 @@ import { NewsItem } from "@/types/news";
 
 type NewsGridProps = {
   articles: NewsItem[];
+  newArticleIds?: Set<string>;
 };
 
 const PAGE_SIZE = 6;
+const MAX_VISIBLE_PAGES = 8;
 
-export function NewsGrid({ articles }: NewsGridProps) {
+export function NewsGrid({ articles, newArticleIds }: NewsGridProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(articles.length / PAGE_SIZE);
   const startIndex = (currentPage - 1) * PAGE_SIZE;
@@ -36,18 +38,72 @@ export function NewsGrid({ articles }: NewsGridProps) {
 
   const renderPageNumbers = () => {
     const pages = [];
-    for (let i = 1; i <= totalPages; i++) {
-      pages.push(
-        <button
-          key={i}
-          onClick={() => handlePageClick(i)}
-          className={`pagination-item ${i === currentPage ? "pagination-item-active" : ""}`}
-          disabled={i === currentPage}
-        >
-          {i}
-        </button>
-      );
+    
+    if (totalPages <= MAX_VISIBLE_PAGES) {
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(
+          <button
+            key={i}
+            onClick={() => handlePageClick(i)}
+            className={`pagination-item ${i === currentPage ? "pagination-item-active" : ""}`}
+            disabled={i === currentPage}
+          >
+            {i}
+          </button>
+        );
+      }
+    } else {
+      const leftBound = Math.max(1, currentPage - Math.floor(MAX_VISIBLE_PAGES / 2));
+      const rightBound = Math.min(totalPages, leftBound + MAX_VISIBLE_PAGES - 1);
+      
+      if (leftBound > 1) {
+        pages.push(
+          <button
+            key={1}
+            onClick={() => handlePageClick(1)}
+            className={`pagination-item ${1 === currentPage ? "pagination-item-active" : ""}`}
+            disabled={1 === currentPage}
+          >
+            1
+          </button>
+        );
+        
+        if (leftBound > 2) {
+          pages.push(<span key="ellipsis-start" className="pagination-ellipsis">...</span>);
+        }
+      }
+      
+      for (let i = leftBound; i <= rightBound; i++) {
+        pages.push(
+          <button
+            key={i}
+            onClick={() => handlePageClick(i)}
+            className={`pagination-item ${i === currentPage ? "pagination-item-active" : ""}`}
+            disabled={i === currentPage}
+          >
+            {i}
+          </button>
+        );
+      }
+      
+      if (rightBound < totalPages) {
+        if (rightBound < totalPages - 1) {
+          pages.push(<span key="ellipsis-end" className="pagination-ellipsis">...</span>);
+        }
+        
+        pages.push(
+          <button
+            key={totalPages}
+            onClick={() => handlePageClick(totalPages)}
+            className={`pagination-item ${totalPages === currentPage ? "pagination-item-active" : ""}`}
+            disabled={totalPages === currentPage}
+          >
+            {totalPages}
+          </button>
+        );
+      }
     }
+    
     return pages;
   };
 
@@ -55,7 +111,11 @@ export function NewsGrid({ articles }: NewsGridProps) {
     <div className="news-grid-wrapper">
       <section className="news-grid" aria-label="AI资讯列表">
         {displayedArticles.map((article) => (
-          <NewsCard key={article.id} article={article} />
+          <NewsCard 
+            key={article.id} 
+            article={article} 
+            isNew={newArticleIds?.has(article.id) || false}
+          />
         ))}
       </section>
 

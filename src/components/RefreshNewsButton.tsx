@@ -1,7 +1,8 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
+
+import { NewsItem } from "@/types/news";
 
 type RefreshApiResponse = {
   ok: boolean;
@@ -9,10 +10,15 @@ type RefreshApiResponse = {
   error?: string;
   newCount?: number;
   totalCount?: number;
+  articles?: NewsItem[];
+  lastRefreshedAt?: string;
 };
 
-export function RefreshNewsButton() {
-  const router = useRouter();
+type RefreshNewsButtonProps = {
+  onRefresh?: (articles: NewsItem[], lastRefreshedAt: string) => void;
+};
+
+export function RefreshNewsButton({ onRefresh }: RefreshNewsButtonProps) {
   const [isPending, startTransition] = useTransition();
   const [statusText, setStatusText] = useState<string>("");
 
@@ -27,9 +33,14 @@ export function RefreshNewsButton() {
       }
 
       setStatusText(result.message || "刷新成功");
-      startTransition(() => {
-        router.refresh();
-      });
+      
+      if (onRefresh && result.articles && result.lastRefreshedAt) {
+        const articles = result.articles as NewsItem[];
+        const lastRefreshedAt = result.lastRefreshedAt as string;
+        startTransition(() => {
+          onRefresh(articles, lastRefreshedAt);
+        });
+      }
     } catch {
       setStatusText("网络异常，刷新失败。");
     }
