@@ -1,0 +1,1166 @@
+[
+  {
+    "title": "DockMaster Pro v1.3.0：窗口预览、八款系统详情插件、图标动画与主题渐变正式上线",
+    "link": "https://www.oschina.net/news/430586",
+    "published": "Fri, 17 Apr 2026 10:08:07 +0800",
+    "published_iso": "2026-04-17T02:08:07.000Z",
+    "summary": "大家好，DockMaster Pro 今天正式发布 v1.3.0 版本。 本次更新带来了窗口预览、多款系统详情插件、图标动画效果、主题渐变支持、菜单栏重新设计等多项功能，是功能覆盖面最广的一次更新。 窗口预览 新增图标悬停时的窗口预览功能，悬停在 Dock 图标上可直接预览该应用的窗口缩略图。预览面板支持点击激活对应窗口，卡片间...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:50.129Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "HeteroFlow 异构算力调度平台开源版 即将发布",
+    "link": "https://www.oschina.net/news/430571",
+    "published": "Fri, 17 Apr 2026 09:32:35 +0800",
+    "published_iso": "2026-04-17T01:32:35.000Z",
+    "summary": "HeteroFlow 异构算力调度平台开源版：让每一块 GPU 都物尽其用 HeteroFlow 是国内领先的开源异构算力 GPU 统一调度平台，支持 NVIDIA、昇腾、海光、寒武纪、壁仞、AMD 等 9 种 GPU 芯片的统一调度管理，已服务多家 AI 算力中心与科研机构。 GPU 显存分片——一块卡当多块用 screen 0: claude@VM-0-3-opencloudos:~] Fin...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:50.129Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "EasyGoAdmin 敏捷开发框架 Beego+EleVue 版本 v3.1.0 发布",
+    "link": "https://www.oschina.net/news/430548",
+    "published": "Fri, 17 Apr 2026 08:22:07 +0800",
+    "published_iso": "2026-04-17T00:22:07.000Z",
+    "summary": "v3.1.0 更新内容： 1、优化数据库表结构； 2、优化库表字段长度； 3、优化常量参数规范； 4、优化路由转发设置； 5、修复近期用户反馈的问题； 一款 Go 语言基于 Beego、Vue、ElementUI、MySQL 等框架精心打造的一款模块化、插件化、高性能的前后端分离架构敏捷开发框架，可快速搭建前后端分离后台管理系统，本着简化开发...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:50.129Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "代码通过即拿奖！OpenCloud 40+超热门AI工具等你来贡献",
+    "link": "https://xie.infoq.cn/article/4940bd7d8d430c84ad94ca6b4?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 18:10:27 GMT",
+    "published_iso": "2026-04-16T18:10:27.000Z",
+    "summary": "OpenCloudOS × InfoQ 「Agentic AI容器计划」即日上线，首批任务开放认领，完成即奖励&#xA; 点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:29:50.129Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "SunnyUI V3.9.6 发布啦，C# WinForm 开源控件库！",
+    "link": "https://www.oschina.net/news/425050/sunnyui-3-9-6-released",
+    "published": "Thu, 16 Apr 2026 21:36:41 +0800",
+    "published_iso": "2026-04-16T13:36:41.000Z",
+    "summary": "帮助文档: https://gitee.com/yhuse/SunnyUI/wikis/pages 更新日志: https://gitee.com/yhuse/SunnyUI/wikis/ 更新日志 Gitee: https://gitee.com/yhuse/SunnyUI GitHub: https://github.com/yhuse/SunnyUI Nuget: https://www.nuget.org/packages/SunnyUI/ Blog: https://www.cnblogs.com/yhuse 因为评论没有查找，不利...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:50.129Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "当运维遇见本体论：Umodel 打造 IT 世界的统一认知地图",
+    "link": "https://my.oschina.net/u/3874284/blog/19579587",
+    "published": "Fri, 17 Apr 2026 11:22:28 +0800",
+    "published_iso": "2026-04-17T03:22:28.000Z",
+    "summary": "你有没有想过，今天阿里云运维工程师用来定位服务器故障的底层逻辑，和两千多年前古希腊哲人追问 \"世界由什么构成\" 的思考，本质上是一回事？从亚里士多德在《形而上学》里搭建的第一套存在分析框架，到如今数字化时代企业 IT 系统的可观测建模，本体论跨越两千余年的时光，从形而上学的核心分支，一步步演变为千行百业数...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:27.310Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Electron 41.2.1 发布",
+    "link": "https://www.oschina.net/news/430613/electron-41-2-1-released",
+    "published": "Fri, 17 Apr 2026 11:12:56 +0800",
+    "published_iso": "2026-04-17T03:12:56.000Z",
+    "summary": "Electron 是一个使用 JavaScript、HTML 和 CSS 构建跨平台的桌面应用程序。它基于 Node.js 和 Chromium，被 Atom 编辑器和许多其他应用程序使用。Electron 兼容 Mac、Windows 和 Linux，可以构建出三个平台的应用程序。 Electron v41.2.1 现已发布，一些更新内容如下： 修复 为contentTracing跟踪记录添加了缺失的metad...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:27.310Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "技术日报｜Karpathy 的 Claude 配置三连冠总星数近 5 万，《动手学大模型》中文教程强势入榜",
+    "link": "https://www.oschina.net/news/430596",
+    "published": "Fri, 17 Apr 2026 10:35:11 +0800",
+    "published_iso": "2026-04-17T02:35:11.000Z",
+    "summary": "🌟 TrendForge 每日精选 - 发现最具潜力的开源项目 📊 今日共收录 14 个热门项目 🌐 智能中文翻译版 - 项目描述已自动翻译，便于理解 🏆 今日最热项目 Top 10 🥇 forrestchang/andrej-karpathy-skills 项目简介: 一个独立的CLAUDE.md文件，用于改进Claude代码行为，源自Andrej Karpathy对大型语言模型编码常见...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:27.310Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Anthropic 推出 Claude Opus 4.7",
+    "link": "https://www.oschina.net/news/430590/claude-opus-4-7",
+    "published": "Fri, 17 Apr 2026 10:21:29 +0800",
+    "published_iso": "2026-04-17T02:21:29.000Z",
+    "summary": "Anthropic 宣布其最新款的 Claude Opus 4.7 已全面上市。在高级软件工程方面相比 Opus 4.6 有了显著提升，尤其是在处理最复杂的任务方面。Opus 4.7 能够严谨且一致地处理复杂、耗时的任务，精准地执行指令，并在返回结果之前设计出验证自身输出的方法。 根据介绍，该模型还拥有显著更佳的视觉效果：它能够识别更高分辨率...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:27.310Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "ImageNet作者苏昊回国任教复旦！李飞飞高徒，具身第一高引，出任通用物理AI院长",
+    "link": "https://www.qbitai.com/2026/04/402088.html",
+    "published": "Fri, 17 Apr 2026 02:16:36 +0000",
+    "published_iso": "2026-04-17T02:16:36.000Z",
+    "summary": "推动“物理智能”的最终实现",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:29:27.310Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
+    "link": "https://www.qbitai.com/2026/04/402186.html",
+    "published": "Fri, 17 Apr 2026 05:52:13 +0000",
+    "published_iso": "2026-04-17T05:52:13.000Z",
+    "summary": "RoboChallenge 正式完成第二批生态扩容，星动纪元、极佳视界、地平线、光轮智能、生数科技、中移杭研、长虹、算力自由8 家顶尖企业重磅入驻",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:29:04.626Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "阿里 HappyOyster 正式开放内测",
+    "link": "https://www.oschina.net/news/430631",
+    "published": "Fri, 17 Apr 2026 11:53:13 +0800",
+    "published_iso": "2026-04-17T03:53:13.000Z",
+    "summary": "阿里巴巴-ATH 创新事业部旗下 HappyOyster 正式宣布开放内测。 根据介绍，Happy Oyster 是一款用于实时世界生成与交互的开放式世界模型产品。基于原生多模态架构构建，Happy Oyster 支持多模态理解以及音视频联合生成。 与遵循“编写提示词、等待渲染、接收成品片段”这种一次性工作流的传统 AI 视频工具不同，Happy Oys...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:04.626Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "具身智能领域首个国际标准成功立项",
+    "link": "https://www.oschina.net/news/430625",
+    "published": "Fri, 17 Apr 2026 11:43:43 +0800",
+    "published_iso": "2026-04-17T03:43:43.000Z",
+    "summary": "我国在国际标准化组织成功立项具身智能领域全球首项国际标准《人形机器人数据集》，并推动成立了首个由我国专家担任召集人的工作组。 当前，美国、日本、欧盟等主要经济体都将人形机器人纳入国家科技战略，争相布局研发与应用。 国际标准化组织机器人技术委员会国内技术对口单位负责人王振林表示，全球机器人领域的话语权...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:04.626Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "2026 年 AI 编码 CLI 工具终极对比：Claude、Cursor、Gemini、Codex",
+    "link": "https://www.oschina.net/news/430624",
+    "published": "Fri, 17 Apr 2026 11:39:27 +0800",
+    "published_iso": "2026-04-17T03:39:27.000Z",
+    "summary": "JEECG 低代码 AI 编程研究 | 从编程能力到 Skills 生态，五款主流 AI 编码 CLI 横评与选型指南 引言：AI 编码工具已是基础设施 如果你还把 AI 编程工具当作 \"锦上添花\" 的辅助品，那你可能已经落后了。2026 年，终端里的 AI Agent 早已超越了 \"聪明的自动补全\" 这一定位 ------ 它们能通读整个代码仓库、自主规划并执行多...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:29:04.626Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "空间智能第一股，开盘暴涨171%！李飞飞押注的赛道，杭州六小龙之一跑通了",
+    "link": "https://www.qbitai.com/2026/04/402158.html",
+    "published": "Fri, 17 Apr 2026 03:30:27 +0000",
+    "published_iso": "2026-04-17T03:30:27.000Z",
+    "summary": "空间智能的时代，才刚刚开始。",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:29:04.626Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Apache SeaTunnel Zeta 为什么能做到 “又快又稳”？",
+    "link": "https://my.oschina.net/SeaTunnel/blog/19577873",
+    "published": "Fri, 17 Apr 2026 15:41:02 +0800",
+    "published_iso": "2026-04-17T07:41:02.000Z",
+    "summary": "而 Zeta 值得认真看的地方，恰恰在这里：它不是靠某一个性能优化点取胜，而是把一致性、恢复、并发收敛和资源控制做成了一套闭环的系统能力。",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:28:15.411Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
+    "link": "https://www.qbitai.com/2026/04/402388.html",
+    "published": "Fri, 17 Apr 2026 07:37:14 +0000",
+    "published_iso": "2026-04-17T07:37:14.000Z",
+    "summary": "全栈大脑会成为具身智能下一阶段竞赛的胜负手",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:28:15.411Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
+    "link": "https://www.qbitai.com/2026/04/402329.html",
+    "published": "Fri, 17 Apr 2026 07:08:17 +0000",
+    "published_iso": "2026-04-17T07:08:17.000Z",
+    "summary": "Gemini Robotics主打空间推理的第三代模型。",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:28:15.411Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
+    "link": "https://www.qbitai.com/2026/04/402189.html",
+    "published": "Fri, 17 Apr 2026 06:57:35 +0000",
+    "published_iso": "2026-04-17T06:57:35.000Z",
+    "summary": "π0.7：具有涌现能力的可控模型",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:28:15.411Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Swift 6.3.1 发布",
+    "link": "https://www.oschina.net/news/430678/swift-6-3-1-released",
+    "published": "Fri, 17 Apr 2026 14:47:36 +0800",
+    "published_iso": "2026-04-17T06:47:36.000Z",
+    "summary": "Swift 6.3.1 现已发布，具体更新内容包括： 迅速 修复了异步函数中导致“freed pointer was not the last allocation”崩溃的栈分配错误，尤其是在swift_asyncLet_finish中。由于优化器的改进，这些长期存在的问题在 Swift 6.2 和 6.3 中变得更加频繁。PR#88389 LLDB 修复了在使用 Windows 工具链的 NoAsserts 版本时，l...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:28:15.411Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Grafana 13.0.1 发布，系统指标监控与分析平台",
+    "link": "https://www.oschina.net/news/430739/grafana-13-0-1-released",
+    "published": "Fri, 17 Apr 2026 16:48:43 +0800",
+    "published_iso": "2026-04-17T08:48:43.000Z",
+    "summary": "Grafana 是一个用于监控和可观察性的开源平台，可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多个来源的指标、日志等。 Grafana 13.0.1 现已正式发布，主要更新内容如下： Features and enhancements Dashboard：在 V1 → V2 转换时保留用户时区偏好设置 #122673 Provisioning：在拉取请求评论中包...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:27:54.188Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
+    "link": "https://www.qbitai.com/2026/04/402440.html",
+    "published": "Fri, 17 Apr 2026 08:24:28 +0000",
+    "published_iso": "2026-04-17T08:24:28.000Z",
+    "summary": "算力只需200TOPS",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:27:54.188Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "SQLAlchemy 2.1.0b2 发布",
+    "link": "https://www.oschina.net/news/430721/sqlalchemy-2-1-0b2-released",
+    "published": "Fri, 17 Apr 2026 16:13:56 +0800",
+    "published_iso": "2026-04-17T08:13:56.000Z",
+    "summary": "SQLAlchemy 2.1 系列的第二个测试版现已发布。 2.1.0b2 版本新增了对 mssql-python DBAPI 的支持，这是由微软直接开发的 Microsoft SQL Server 驱动程序。此外还引入了其他一些功能和错误修复。 SQLAlchemy 是一个 Python 的 SQL 工具包以及数据库对象映射 (ORM) 框架。它包含整套企业级持久化模式，专门用于高效和高性能...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:27:54.188Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": ":fire: Solon AI v3.13 发布（智能体开发框架，支持 Java8 到 Java26）",
+    "link": "https://www.oschina.net/news/430715/solon-ai-3-13-released",
+    "published": "Fri, 17 Apr 2026 15:56:51 +0800",
+    "published_iso": "2026-04-17T07:56:51.000Z",
+    "summary": "Solon AI Solon AI 是一款面向 Java 开发者 的全栈智能体（Agent）应用开发框架。它秉承 Solon 家族一贯的“克制、高效、开放”理念，向上抽象统一接口屏蔽模型差异，向下深度集成向量库、MCP 协议与复杂流控制。 核心理念： 一份代码，跨模型运行；极致轻量，从 Java 8 纵跳至 Java 26。 核心架构图谱： 维度 核心能力 ...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:27:54.188Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "阿里开源 Qwen3.6-35B-A3B",
+    "link": "https://www.oschina.net/news/430710",
+    "published": "Fri, 17 Apr 2026 15:48:11 +0800",
+    "published_iso": "2026-04-17T07:48:11.000Z",
+    "summary": "阿里通义实验室宣布开源 Qwen3.6-35B-A3B，一款采用稀疏混合专家（MoE）架构的高效模型：总参数 350 亿，每次推理仅激活 30 亿参数。 公告称，相比前代 Qwen3.5-35B-A3B，Qwen3.6-35B-A3 在 SWE-bench、Terminal-Bench 等基准上显著提升，并可与 Qwen3.5-27B、Gemma-31B 等体量更大的稠密模型一较高下。 Qwen3.6-35B-A3...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:27:54.188Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "星工聚将：从“物理对齐”出发，重新探索具身 AGI 的技术路",
+    "link": "https://www.infoq.cn/article/1WMZt5S8lGzM1MkdzR2o?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 15:24:00 GMT",
+    "published_iso": "2026-04-17T15:24:00.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:27:46.391Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Zendesk：生成式 AI 让代码不再稀缺，研发瓶颈转向“吸收能力”",
+    "link": "https://www.infoq.cn/article/RBkkYQsT8Hd3hQTEYoAG?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 13:00:00 GMT",
+    "published_iso": "2026-04-17T13:00:00.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:27:46.391Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "针对 NVIDIA GPU 的新型攻击 Rowhammer 可实现对整个系统的完全控制",
+    "link": "https://www.infoq.cn/article/pmteOlcag616Dap4zm8o?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 11:00:00 GMT",
+    "published_iso": "2026-04-17T11:00:00.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:27:46.391Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "聚焦 Spring Framework 7 与 Spring Boot 4：Spring 团队专访",
+    "link": "https://www.infoq.cn/article/z4msV9uzNy7CXYFC4K2J?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 10:00:00 GMT",
+    "published_iso": "2026-04-17T10:00:00.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:27:46.391Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
+    "link": "https://www.oschina.net/news/430752/ant-design-6-3-6-released",
+    "published": "Fri, 17 Apr 2026 17:13:10 +0800",
+    "published_iso": "2026-04-17T09:13:10.000Z",
+    "summary": "Ant Design 是阿里巴巴开源的一套企业级 UI 设计语言和 React 组件库。Ant Design 6.3.6 现已发布，主要更新内容如下： 修复 InputNumber 禁用步进按钮仍显示悬浮样式的问题。 #57592 修复 Space.Addon 在紧凑布局中展示中文等 CJK 内容时会换行的问题。 #57622 修复 Cascader 菜单项长选项文本的省略样式问题。 #57540...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:27:46.392Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "OpenAI 也把工程师经验“蒸馏”进 skill 了！Harness 爆文作者曝内部玩法：一个百万行代码系统，全程零人工编码和审核",
+    "link": "https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 16:01:16 GMT",
+    "published_iso": "2026-04-17T16:01:16.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:27:39.990Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "借助 Cortex Code 加速构建：全面开放，轻松应对更复杂任务 ｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/eZmMIRcKHQ9KR791b8lF?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 19:59:11 GMT",
+    "published_iso": "2026-04-17T19:59:11.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:26:58.643Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "试点走向规模化盈利：生成式 AI 与智能体 AI 的 ROI 兑现路径 ｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/TilQABTIBywUBmxJAFNG?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 19:35:02 GMT",
+    "published_iso": "2026-04-17T19:35:02.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:26:58.643Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "智能体企业架构浮现：数据、模型、系统之外的控制平面｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 19:20:35 GMT",
+    "published_iso": "2026-04-17T19:20:35.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:26:58.643Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "AI 驱动的数据库心脏：如何让云原生「自我进化」",
+    "link": "https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 17:27:50 GMT",
+    "published_iso": "2026-04-17T17:27:50.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:26:58.644Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "Karpathy 亲手终结了 RAG 的草莽时代",
+    "link": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 17:20:44 GMT",
+    "published_iso": "2026-04-17T17:20:44.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:26:58.644Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "这可能是近十年最重要的 C++ 版本更新，反射、契约、并发模型全面进化",
+    "link": "https://www.infoq.cn/article/mTR5V1FNI2HdcxOxB8fW?utm_source=rss&utm_medium=article",
+    "published": "Sat, 18 Apr 2026 14:12:37 GMT",
+    "published_iso": "2026-04-18T14:12:37.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:18:59.574Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "谷歌基于Apache 2.0协议开源Gemma 4，搭载多模态与智能体能力",
+    "link": "https://www.infoq.cn/article/ry64GrNLAEEf1qdZABb0?utm_source=rss&utm_medium=article",
+    "published": "Sat, 18 Apr 2026 10:00:00 GMT",
+    "published_iso": "2026-04-18T10:00:00.000Z",
+    "summary": "点击查看原文>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T09:18:59.574Z",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": ":fire:Java 最好用的基于 mybatis 的 ORM 框架，1.10.0 正式发布，绝对不能错过！！！",
+    "link": "https://www.oschina.net/news/431533",
+    "published": "Sat, 18 Apr 2026 15:49:00 +0800",
+    "published_iso": "2026-04-18T07:49:00.000Z",
+    "summary": "推荐理由： 强、强、强 ，单表？连表？不想连表？让你直接少写1/3甚至2/3的持久层代码；API 简单 快捷 优雅 简洁 构建SQL非常强！用过的 没用过的都来体验，虽然有AI了，但是真正好用的ORM的还不能忽略的，除非你以后不维护。 1.10.0 - 2026-04-18 1：修复主动调用了fetchFilter/fetchEnable时，可能出现报错的问题（未使...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:18:59.574Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "技术日报｜superpowers 突破 15.7 万星重夺榜首，Google AI 文件检测工具magika强势入榜",
+    "link": "https://www.oschina.net/news/431421",
+    "published": "Sat, 18 Apr 2026 09:22:53 +0800",
+    "published_iso": "2026-04-18T01:22:53.000Z",
+    "summary": "🌟 TrendForge 每日精选 - 发现最具潜力的开源项目 📊 今日共收录 15 个热门项目 🌐 智能中文翻译版 - 项目描述已自动翻译，便于理解 🏆 今日最热项目 Top 10 🥇 obra/superpowers 项目简介: Claude Code 超级能力：核心技能库 今日新增: 1713 * 总星数: 157744 * 语言: Shell https://github.com/obra/super...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T09:18:59.574Z",
+    "image_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "魏建军发布会开炮：专属电动车平台纯粹伪命题，友商回去立马向我们学习",
+    "link": "https://www.qbitai.com/2026/04/402636.html",
+    "published": "Sat, 18 Apr 2026 01:10:09 +0000",
+    "published_iso": "2026-04-18T01:10:09.000Z",
+    "summary": "不以尺寸定义汽车平台",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T09:18:59.574Z",
+    "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "title": "宁王飘了！日赚2.3亿，回应比亚迪“闪充”：跟我学的，构不成挑战",
+    "link": "https://www.qbitai.com/2026/04/401719.html",
+    "published": "Thu, 16 Apr 2026 08:25:48 +0000",
+    "published_iso": "2026-04-16T08:25:48+00:00",
+    "summary": "市值跻身A股前三",
+    "source": "量子位",
+    "fetched_at": "2026-04-16T12:45:33.397473+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/1c30620e4f19468a14100f8038c5a93f.png"
+  },
+  {
+    "title": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
+    "link": "https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 15:00:00 GMT",
+    "published_iso": "2026-04-16T15:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:45:31.855483+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/ae/38/ae1ef061db329e869a11b7c5f9dfd738.png"
+  },
+  {
+    "title": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
+    "link": "https://www.infoq.cn/article/t9ZBwRdLF4cRKqIMNYXY?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 14:48:12 GMT",
+    "published_iso": "2026-04-16T14:48:12+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/t9ZBwRdLF4cRKqIMNYXY?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:45:31.813357+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/ab/d2/ab4babee77ec0af9e8b92d5dac2bb0d2.png"
+  },
+  {
+    "title": ":sparkles:软件授权管理系统客户端模拟器 v1.0.1 版本发布",
+    "link": "https://www.oschina.net/news/423053",
+    "published": "Thu, 16 Apr 2026 15:41:13 +0800",
+    "published_iso": "2026-04-16T15:41:13+08:00",
+    "summary": "LicenseManager客户端模拟器v1.0.1版本发布 LicenseManager客户端模拟器 v1.0.1 正式发布。本次更新带来许可证本地编辑、公钥动态更新等重要功能，并修复若干缺陷。 更新亮点 本地许可证创建与修改 在 LMClientSimulator GUI 客户端中新增「创建/修改许可证」功能，可通过图形界面直接创建或编辑本地 license.lic 授权文...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:45:31.408632+00:00"
+  },
+  {
+    "title": "Claude 背刺用户，国产大模型谁能顶上？",
+    "link": "https://my.oschina.net/u/4487475/blog/19577856",
+    "published": "Thu, 16 Apr 2026 15:55:07 +0800",
+    "published_iso": "2026-04-16T15:55:07+08:00",
+    "summary": "2026 年 4 月 14 日，Anthropic 在 Claude Support 帮助页面悄然上线身份验证说明文档 —— 这是主流 AI 应用中首家大规模实施 KYC 的案例。",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:45:31.267646+00:00"
+  },
+  {
+    "title": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
+    "link": "https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 15:07:07 GMT",
+    "published_iso": "2026-04-16T15:07:07+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:41:00.682324+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/2b/a0/2bbf2ff14608b3e26ab301751c6761a0.png"
+  },
+  {
+    "title": "Claude 推行强制化实名认证：部分功能需提交证件和自拍",
+    "link": "https://www.infoq.cn/article/dDG9KpwHWj9ufYENNgVP?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 16:01:49 GMT",
+    "published_iso": "2026-04-16T16:01:49+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/dDG9KpwHWj9ufYENNgVP?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:41:00.564117+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/af/89/af3ffd375e3b1d632b65b399f9596b89.png"
+  },
+  {
+    "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
+    "link": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 16:42:05 GMT",
+    "published_iso": "2026-04-16T16:42:05+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:40:59.977316+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/5f/a3/5f39d94a136ceaf23413497613b1f3a3.png"
+  },
+  {
+    "title": "LinkedIn 数据显示：AI 并非影响就业的罪魁祸首",
+    "link": "https://www.oschina.net/news/423061",
+    "published": "Thu, 16 Apr 2026 16:09:51 +0800",
+    "published_iso": "2026-04-16T16:09:51+08:00",
+    "summary": "微软旗下职业社交网站领英（LinkedIn）的全球事务与法律事务主管 Blake Lawit 在接受采访时证实，该公司数据显示自 2022 年以来，招聘人数下降了约 20%。 但他反驳了将责任归咎于 AI 的说法。“我们对此进行了研究——因为大家都想知道这个问题的答案：AI 目前是否正在影响就业？我们进行了研究，老实说，我们尚未观察到...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:40:59.912506+00:00"
+  },
+  {
+    "title": "TinyVue 3.30 正式发布",
+    "link": "https://my.oschina.net/u/6769809/blog/19577885",
+    "published": "Thu, 16 Apr 2026 16:37:07 +0800",
+    "published_iso": "2026-04-16T16:37:07+08:00",
+    "summary": "近期，OpenTiny 社区正式发布 TinyVue v3.30.0！这个版本不仅是一次常规的功能迭代，更是 TinyVue 在 “跨端响应式” 上的里程碑式飞跃。",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:40:59.909002+00:00"
+  },
+  {
+    "title": "COPU 名誉主席陆首群与 Linux 基金会执行董事 Jim Zemlin 会晤",
+    "link": "https://www.oschina.net/news/423128",
+    "published": "Thu, 16 Apr 2026 19:22:27 +0800",
+    "published_iso": "2026-04-16T19:22:27+08:00",
+    "summary": "Linux基金会执行董事Jim Zemlin一行于4月16日在北京与中国开源软件推进联盟(COPU)名誉主席陆首群一行友情会晤。双方讨论国内和全球开源、深度信息技术和人工智能发展问题。 Jim介绍由Linux基金会宣布在美国成立的智能体人工智能基金会(Agentic AI Foundation，AAIF)的情况； 陆主席介绍拟于6月25~26日召开《第21届开源中...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:34:35.306943+00:00"
+  },
+  {
+    "title": "压榨系统性能：视频审核中台从 280ms 降低至 90ms 的架构演进与深度优化.md",
+    "link": "https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 16:51:44 GMT",
+    "published_iso": "2026-04-16T16:51:44+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/VPXF1eq1iuW7HlZSMX0y?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:34:35.304986+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/8a/9b/8a1ac8961612df5378a4c9c6ef642f9b.png"
+  },
+  {
+    "title": "Guava 33.6.0 发布，Google 的 Java 核心工具库",
+    "link": "https://www.oschina.net/news/423096/guava-33-6-0-released",
+    "published": "Thu, 16 Apr 2026 17:33:04 +0800",
+    "published_iso": "2026-04-16T17:33:04+08:00",
+    "summary": "Guava 33.6.0 现已发布。Guava 是 Google 的一套核心 Java 库，包括新的集合类型（如 multimap 和 multiset）、图库，以及用于并发、I/O、散列、缓存、基元、字符串等实用工具。它被广泛用于 Google 内部的 Java 项目，同时也被许多其他公司广泛使用。 Maven \n&lt;dependency&gt;\n  &lt;groupId&gt;com.google.guava&lt;/groupId&gt;\n ...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T12:34:35.233512+00:00"
+  },
+  {
+    "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
+    "link": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 16:49:40 GMT",
+    "published_iso": "2026-04-16T16:49:40+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:34:35.226539+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/95/53/952yy70971567d2dcc65b9586400ab53.png"
+  },
+  {
+    "title": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
+    "link": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 17:35:00 GMT",
+    "published_iso": "2026-04-16T17:35:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T12:34:35.136793+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/81/9c/81123438652a310ca6128046b9eae79c.png"
+  },
+  {
+    "title": "2026 年 4 月中国数据库流行度排行榜",
+    "link": "https://my.oschina.net/u/4559794/blog/19577760",
+    "published": "Thu, 16 Apr 2026 13:49:23 +0800",
+    "published_iso": "2026-04-16T13:49:23+08:00",
+    "summary": "在墨天轮社区最新的中国数据库流行度排行榜中，市场格局呈现出显著的分层态势。OceanBase 与 达梦数据库 凭借深厚的技术底座与高频的业务实践，以领先第三名 140 分以上的绝对优势，双双突破 700 分大关，继续领跑全场。",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T06:44:28.950548+00:00"
+  },
+  {
+    "title": ":fire: SolonCode CLI v2026.4.16 发布（中文提示词驱动的编码智能体）",
+    "link": "https://www.oschina.net/news/421716/soloncode-cli-2026-4-16",
+    "published": "Thu, 16 Apr 2026 13:22:06 +0800",
+    "published_iso": "2026-04-16T13:22:06+08:00",
+    "summary": "1、关于 SolonCode CLI（终端编码智能体） SolonCode CLI 是基于 Java + Solon AI 开发的 “终端编码智能体”。基于“全中文”提示词构建（中文体验，很爽）。 常见问题：它和 Claude Code 有什么不同？ 功能上很相似，关键差异： 采用 Java 实现，100% 开源。 使用 “全中文” 提示词构建（如果不会中文，不建议使用）。...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T06:44:28.925107+00:00"
+  },
+  {
+    "title": "卖鞋厂转型做AI股价暴涨582%，华尔街最不缺这种荒诞闹剧",
+    "link": "https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 10:34:39 GMT",
+    "published_iso": "2026-04-16T10:34:39+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T06:44:28.923112+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/aa/76/aa33bf2d2d254f50729c0f6c148b7f76.png"
+  },
+  {
+    "title": "扔掉你的Token账单吧，荣耀YOYO Claw技术把养虾成本打下来了",
+    "link": "https://www.qbitai.com/2026/04/401682.html",
+    "published": "Thu, 16 Apr 2026 04:53:31 +0000",
+    "published_iso": "2026-04-16T04:53:31+00:00",
+    "summary": "省下50%Tokens，打破养虾高成本困境",
+    "source": "量子位",
+    "fetched_at": "2026-04-16T06:44:28.681323+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/4bd8e5dd3de27da1cd8c70602b3fc962.jpeg"
+  },
+  {
+    "title": "Claude实名认证引众怒！强制验证是为了更精准封号",
+    "link": "https://www.qbitai.com/2026/04/401655.html",
+    "published": "Thu, 16 Apr 2026 04:28:09 +0000",
+    "published_iso": "2026-04-16T04:28:09+00:00",
+    "summary": "Opus自己都看不下去了",
+    "source": "量子位",
+    "fetched_at": "2026-04-16T06:44:28.613898+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/70df771e2c4447ea971a103b33dd4e25.webp"
+  },
+  {
+    "title": "设计企业级可观测性 Docker 扩展",
+    "link": "https://www.infoq.cn/article/op76T76AX55jqGIQdU6L?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 14:00:00 GMT",
+    "published_iso": "2026-04-16T14:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/op76T76AX55jqGIQdU6L?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T06:32:59.663502+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/dd/13/ddb5374bb2f9de97ecaac2c0f64c1813.jpg"
+  },
+  {
+    "title": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+    "link": "https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 12:00:00 GMT",
+    "published_iso": "2026-04-16T12:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T06:32:59.647444+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/09/7f/091ddb57c194e3531295d0c466e2ec7f.jpg"
+  },
+  {
+    "title": "亚马逊云科技推出可持续发展控制台，支持 API 访问及 Scope 1-3 碳排放报告",
+    "link": "https://www.infoq.cn/article/jtag5PHWAQaMbR1aeyLh?utm_source=rss&utm_medium=article",
+    "published": "Thu, 16 Apr 2026 11:00:00 GMT",
+    "published_iso": "2026-04-16T11:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/jtag5PHWAQaMbR1aeyLh?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-16T06:32:59.564010+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/5b/da/5bab0e2da3a72b3a721661539387b7da.jpg"
+  },
+  {
+    "title": "xaboy form-create v3.2.39 已经发布，JS 表单生成器",
+    "link": "https://www.oschina.net/news/423017",
+    "published": "Thu, 16 Apr 2026 14:03:37 +0800",
+    "published_iso": "2026-04-16T14:03:37+08:00",
+    "summary": "xaboy form-create v3.2.39 已经发布，JS 表单生成器 此版本更新内容包括： 调整内置布局显示逻辑 hook 配置项增加 beforeUnmount 事件 vant 上传组件适配多图上传 优化 ts 描述 修复 group 组件排序按钮可能不显示问题(vue3) 修复 el-select 组件可能报错问题(vue3) 详情查看：https://gitee.com/xaboy/form-create/rel...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T06:32:59.433440+00:00"
+  },
+  {
+    "title": "MiniMax 发布 MaxHermes，全球首个云端沙箱 Hermes",
+    "link": "https://www.oschina.net/news/423018",
+    "published": "Thu, 16 Apr 2026 14:06:08 +0800",
+    "published_iso": "2026-04-16T14:06:08+08:00",
+    "summary": "MiniMax 宣布正式上线全球首个云端沙箱 Hermes —— MaxHermes，一个基于 Hermes Agent 构建的云端自我进化 AI 助手。 MaxHermes 将 Hermes Agent 的学习闭环与自我进化能力与 MiniMax M2.7 模型结合，用户无需本地部署。根据介绍，在独特的学习闭环机制下，每完成一项复杂任务，MaxHermes 会自动从中提炼出可复用的 Sk...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-16T06:32:59.408415+00:00"
+  },
+  {
+    "title": "KubeVirt v1.8 发布",
+    "link": "https://www.oschina.net/news/421031/kubevirt-1-8-released",
+    "published": "Wed, 15 Apr 2026 10:03:52 +0800",
+    "published_iso": "2026-04-15T10:03:52+08:00",
+    "summary": "KubeVirt 社区宣布 v1.8 正式发布，该版本与 Kubernetes v1.35 保持对齐。 这是自引入 VEP（Virt Enhancement Proposal）流程以来的第三个版本。经历了早期的一些波动和持续迭代之后，该流程正在逐步稳定，并在社区中形成节奏。本次版本的提案数量显著增长，这一趋势预计将持续。 一些核心更新内容如下： SIG Compute 机...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T18:14:14.231631+00:00"
+  },
+  {
+    "title": "阿里云宣布对 DDoS 防护产品进行调价",
+    "link": "https://www.oschina.net/news/421040",
+    "published": "Wed, 15 Apr 2026 10:22:44 +0800",
+    "published_iso": "2026-04-15T10:22:44+08:00",
+    "summary": "阿里云最新发布“DDoS防护产品调价公告”公告表示，为统一产品定价规范，决定于2026年7月15日起对DDoS原生防护2.0（包年包月）、DDoS高防（中国内地）以及DDoS高防（非中国内地）商品的弹性95功能进行价格调整。 具体调价内容如下：",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T18:14:14.218554+00:00"
+  },
+  {
+    "title": "技术日报｜Karpathy 的 Claude 优化配置单日揽星 9263 登顶，hermes-agent 总量突破 8.4 万",
+    "link": "https://www.oschina.net/news/421038",
+    "published": "Wed, 15 Apr 2026 10:15:46 +0800",
+    "published_iso": "2026-04-15T10:15:46+08:00",
+    "summary": "🌟 TrendForge 每日精选 - 发现最具潜力的开源项目 📊 今日共收录 13 个热门项目 🌐 智能中文翻译版 - 项目描述已自动翻译，便于理解 🏆 今日最热项目 Top 10 🥇 forrestchang/andrej-karpathy-skills 项目简介: 一个独立的CLAUDE.md文件，用于改进Claude代码行为，源自Andrej Karpathy对大型语言模型编码常见...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T18:14:14.151840+00:00"
+  },
+  {
+    "title": "立正请站好：一个组件复用 Skill 的工程化实践",
+    "link": "https://my.oschina.net/u/5783135/blog/19575284",
+    "published": "Wed, 15 Apr 2026 10:42:23 +0800",
+    "published_iso": "2026-04-15T10:42:23+08:00",
+    "summary": "做这个 Skill 的初衷很直接，也很现实：功能开发时容易 &quot;顺手新建一个&quot;，而不是先复用已有组件，造成组件库越来越臃肿。这件事对团队的伤害其实是复利型的：",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T18:14:14.139873+00:00"
+  },
+  {
+    "title": "禅道 Skills 发布，用小龙虾“对话”禅道",
+    "link": "https://www.oschina.net/news/421055",
+    "published": "Wed, 15 Apr 2026 10:46:18 +0800",
+    "published_iso": "2026-04-15T10:46:18+08:00",
+    "summary": "禅道Skills发布了！“禅道Skills” 已在ClawHub/GitHub平台发布，只需在OpenClaw、Cursor、Claude Code等AI工具中安装，即可 让用户通过自然语言对话，便捷、智能地操作项目、管理Bug、追踪任务，从而提升研发管理体验。 禅道Skills是什么？ 禅道Skills技能是基于禅道 API 2.0 构建的一套智能化助手能力，它允许您通过自...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T18:14:13.842747+00:00"
+  },
+  {
+    "title": "禅道 MCP 发布，协同项目管理与工程研发，提升研发效率",
+    "link": "https://www.oschina.net/news/421057",
+    "published": "Wed, 15 Apr 2026 10:48:49 +0800",
+    "published_iso": "2026-04-15T10:48:49+08:00",
+    "summary": "禅道 MCP 正式发布！项目源码已上线GitHub，支持用户在 Claude、Cursor、CodeBuddy 等AI助手中统一调用。 只需通过自然语言，即可完成从需求到代码的融合，全面提升研发管理体验。 一、禅道MCP是什么？ 禅道MCP是基于MCP模型上下文协议实现的桥接代理服务。可将禅道API2.0等遵循OpenAPI规范的REST接口，自动转为MCP标准工...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:39:36.954965+00:00"
+  },
+  {
+    "title": "天猫拟新增《AI 软件及应用类商品发布规范》",
+    "link": "https://www.oschina.net/news/421059",
+    "published": "Wed, 15 Apr 2026 10:49:42 +0800",
+    "published_iso": "2026-04-15T10:49:42+08:00",
+    "summary": "为规范 AI 软件及应用类商品的购物体验，天猫拟新增《AI 软件及应用类商品发布规范》。 本次规则变更已于 2026 年 4 月 6 日意见征集结束（点此查看），并于2026年4月7日进行公示通知，预计于 2026 年 4 月 14 日生效。 第一章 适用范围 （一）本规范适用于发布或应发布商品在类目为“AI软件及应用”发布商品的天猫商家。...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:39:36.934499+00:00"
+  },
+  {
+    "title": "JooLun 3.9.0 已经发布，微信商城",
+    "link": "https://www.oschina.net/news/421064",
+    "published": "Wed, 15 Apr 2026 10:55:49 +0800",
+    "published_iso": "2026-04-15T10:55:49+08:00",
+    "summary": "JooLun 3.9.0 已经发布，微信商城 此版本更新内容包括： 商城核心 商品由单规格升级为多规格 SKU 模式，完成商品、规格、规格值、SKU 组合的后端与前端联动改造 商品多规格表结构按参考项目统一设计，并精简掉当前项目暂不需要的多租户及冗余字段 商城模块数据库表统一增加 mall_ 前缀，并整理升级脚本执行顺序 新增商城...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:38:21.150804+00:00"
+  },
+  {
+    "title": "Zig 0.16.0 正式发布：I/O 接口化重构，迈向 1.0 的关键一步",
+    "link": "https://www.oschina.net/news/421066/zig-0-16-0-released",
+    "published": "Wed, 15 Apr 2026 10:58:41 +0800",
+    "published_iso": "2026-04-15T10:58:41+08:00",
+    "summary": "Zig 编程语言社区近日迎来了一个重要的里程碑。经过 8 个月的密集开发，来自 244 位贡献者的 1183 次提交，Zig 0.16.0 正式亮相。这一版本不仅带来了大量语言层面的改进，更以一场深刻的标准库重构为核心——将 I/O 操作彻底接口化。对于 Zig 这门以「没有隐藏的控制流」为设计哲学的语言来说，这次变革意义深远，也标志...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:38:20.904508+00:00"
+  },
+  {
+    "title": "TimescaleDB 2.26.3 发布，基于 PostgreSQL 的时序数据库",
+    "link": "https://www.oschina.net/news/421072/timescaledb-2-26-3-released",
+    "published": "Wed, 15 Apr 2026 11:11:16 +0800",
+    "published_iso": "2026-04-15T11:11:16+08:00",
+    "summary": "TimescaleDB 是一个开源数据库，旨在使 SQL 可扩展到时间序列数据，基于 PostgreSQL 构建的，并打包为 PostgreSQL 扩展程序，提供跨时间和空间的自动分区，以及完整的 SQL 支持。 TimescaleDB 2.26.3 现已发布，此版本修复了自 2.26.1 版本以来存在的错误。官方建议尽快升级。 错误修复 #9511 修复了在保留策略中使用dro...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:12:39.587964+00:00"
+  },
+  {
+    "title": "凌晨 4 点，他在用身体喂养机器人。",
+    "link": "https://www.oschina.net/news/421076",
+    "published": "Wed, 15 Apr 2026 11:18:33 +0800",
+    "published_iso": "2026-04-15T11:18:33+08:00",
+    "summary": "拉各斯的凌晨四点，还浸在浓得化不开的黑暗里。出租屋的窗户对着一条窄巷，远处偶尔传来几声野狗的吠叫，混着隔壁邻居熟睡的鼾声，在寂静里被拉得很长。25岁的Zeus猛地从硬板床上弹坐起来，额前的碎发被冷汗濡湿，眼底还带着未散的困意——但他没有丝毫犹豫，也没有躺下续觉，像是早已刻入本能的生物钟在驱使着他。 他的...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T16:12:39.545619+00:00"
+  },
+  {
+    "title": "Module Federation 2.0 正式发布稳定版，逐步摆脱对 Webpack 的依赖",
+    "link": "https://www.infoq.cn/article/8mt2pi2EFrjB5xytzStF?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 11:00:00 GMT",
+    "published_iso": "2026-04-14T11:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/8mt2pi2EFrjB5xytzStF?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:07:18.487311+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/1f/b7/1fb5b8e87681450ed42d9b436e41d9b7.jpg"
+  },
+  {
+    "title": "告别繁琐SQL：用 Xbatis 重新定义 Java 数据库开发体验",
+    "link": "https://www.oschina.net/news/421080",
+    "published": "Wed, 15 Apr 2026 11:27:21 +0800",
+    "published_iso": "2026-04-15T11:27:21+08:00",
+    "summary": "官方网站：https://xbatis.cn | 文档：https://deepwiki.com/xbatis/xbatis | GitHub：https://github.com/xbatis/xbatis 你是否也有这些痛点？ 项目有 50 个实体，就要写 50 个 Mapper 接口，重复代码让人崩溃 多表联查写一堆 XML，改个字段名全局搜索替换，还容易漏 多租户、逻辑删除、乐观锁……每个功能都要手写拦截...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:07:16.653645+00:00"
+  },
+  {
+    "title": "VirtualEnv 21.2.4 发布，Python 虚拟环境",
+    "link": "https://www.oschina.net/news/421087/virtualenv-21-2-4-released",
+    "published": "Wed, 15 Apr 2026 11:43:54 +0800",
+    "published_iso": "2026-04-15T11:43:54+08:00",
+    "summary": "VirtualEnv 21.2.4 现已发布，VirtualEnv 用于在一台机器上创建多个独立的 Python 运行环境，可隔离项目之间的第三方包依赖，为部署应用提供方便，把开发环境的虚拟环境打包到生产环境即可，不需要在服务器上再折腾一翻。 新版更新内容如下： fix(periodic-update)：默认拒绝向 PyPI 发送未经验证的 HTTPS 请求 #3122 fi...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:07:16.444181+00:00"
+  },
+  {
+    "title": "一种可以减少 CI 回归测试套件规模的更佳方案",
+    "link": "https://www.infoq.cn/article/yHZdVghYi7RDjg2VBdLW?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 12:00:00 GMT",
+    "published_iso": "2026-04-14T12:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/yHZdVghYi7RDjg2VBdLW?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:06:19.896259+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/31/0d/31cbaa322fc52888f0f7b3d460dda60d.jpg"
+  },
+  {
+    "title": "TDSQL-C AI 查询优化器：LLM 重塑 SQL 调优与计划管理 | 腾讯云数据库 DBTalk",
+    "link": "https://www.infoq.cn/video/Ls3KiEqAqY58Qvsp1cXD?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 11:15:16 GMT",
+    "published_iso": "2026-04-14T11:15:16+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/video/Ls3KiEqAqY58Qvsp1cXD?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:06:19.590094+00:00"
+  },
+  {
+    "title": "Java近期资讯：TornadoVM 4.0、Google ADK for Java 1.0、Grails、Tomcat、Log4j和Gradle",
+    "link": "https://www.infoq.cn/article/AXhuGjl3AjN3fAyctSLV?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 12:19:09 GMT",
+    "published_iso": "2026-04-14T12:19:09+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/AXhuGjl3AjN3fAyctSLV?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:06:19.587110+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/a2/8e/a2f3cc222bd865699cf1c80f8d6e588e.png"
+  },
+  {
+    "title": "nginx 1.30.0 发布",
+    "link": "https://www.oschina.net/news/421148/nginx-1-30-0-released",
+    "published": "Wed, 15 Apr 2026 14:29:46 +0800",
+    "published_iso": "2026-04-15T14:29:46+08:00",
+    "summary": "nginx-1.30.0 稳定版现已已发布，融合了 1.29.x 主分支中的所有变更，提供了许多新功能，例如 Multipath TCP (MPTCP)。 上个月发布的 Nginx 1.29.7 版本实现了 Multipath TCP 功能，支持单个数据连接同时利用多条网络路径，从而提升吞吐量并实现连接间的无缝切换。 Nginx 1.30 稳定版新增了对 HTTP 103 Early Hints 的支...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:06:18.074199+00:00"
+  },
+  {
+    "title": "2026 年 3 月国产数据库大事记",
+    "link": "https://my.oschina.net/u/4559794/blog/19576238",
+    "published": "Wed, 15 Apr 2026 13:56:14 +0800",
+    "published_iso": "2026-04-15T13:56:14+08:00",
+    "summary": "光大银行 1598.38 万采购 GoldenDB 原厂现场服务；九有数据库完成 A + 轮融资；天谋科技 IoTDB 入选国家级首版次软件名录；矩阵起源开源业内首个 “Git for Memory” Agent 可信记忆框架 Memoria；OceanBase 4.4.2 LTS 版本发布，TP/AP/AI 一体化融合；openGauss 7.0.0-RC3 正式发布，支持 AI 能力集成方案 oGAI；崖山数...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:06:18.063921+00:00"
+  },
+  {
+    "title": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
+    "link": "https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 14:58:12 GMT",
+    "published_iso": "2026-04-14T14:58:12+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:02:34.179632+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/30/7d/3053093a255634791960287ba319577d.jpg"
+  },
+  {
+    "title": "CNCF 与 Kusari 合作，共同加强云原生项目的软件供应链安全",
+    "link": "https://www.infoq.cn/article/ZkMveTm0GrGqNOCxTQit?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 13:00:00 GMT",
+    "published_iso": "2026-04-14T13:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/ZkMveTm0GrGqNOCxTQit?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:02:34.087019+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/4a/c6/4a5ffbbdd05c1b328825e7b466c1e0c6.jpg"
+  },
+  {
+    "title": "TDSQL-C 全球数据库的容灾切换与发展方向 | 腾讯云数据库 DBTalk",
+    "link": "https://www.infoq.cn/video/4x5kTGc6DUpRuYc3oVwB?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 14:42:11 GMT",
+    "published_iso": "2026-04-14T14:42:11+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/video/4x5kTGc6DUpRuYc3oVwB?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T15:02:33.666518+00:00"
+  },
+  {
+    "title": "小红书开源 Relax：面向全模态 Agentic 的异步 RL 训练引擎",
+    "link": "https://www.oschina.net/news/421163",
+    "published": "Wed, 15 Apr 2026 14:50:32 +0800",
+    "published_iso": "2026-04-15T14:50:32+08:00",
+    "summary": "小红书 AI 平台团队宣布正式开源 Relax —— 一款面向全模态与 Agentic 场景设计的大模型强化学习训练引擎。 根据介绍，Relax 基于 Megatron-LM 和 SGLang 高性能后端构建，以协同设计为核心理念，将全模态数据支持、服务化容错架构和异步训练流水线三个维度统一解决。在 Qwen3-Omni-30B 上，Relax 验证了图像、文本、音...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:02:32.786829+00:00"
+  },
+  {
+    "title": "当 AI 默认生成 React，Vue 正在被大模型抛弃吗？",
+    "link": "https://my.oschina.net/u/4487475/blog/19576292",
+    "published": "Wed, 15 Apr 2026 15:12:59 +0800",
+    "published_iso": "2026-04-15T15:12:59+08:00",
+    "summary": "AI 编程时代，一个过去不曾存在的问题出现了：AI 的训练数据偏差，正在前所未有地影响前端技术选型。",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T15:02:32.437922+00:00"
+  },
+  {
+    "title": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+    "link": "https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 18:36:42 GMT",
+    "published_iso": "2026-04-14T18:36:42+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:45:00.450322+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/98/70/9835e2ea0eea12ed1783d669d05e7170.jpg"
+  },
+  {
+    "title": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+    "link": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
+    "published": "Tue, 14 Apr 2026 20:37:39 GMT",
+    "published_iso": "2026-04-14T20:37:39+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:44:59.926864+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/a7/40/a77d9f1abb3f90b31676d0b0f15a8c40.png"
+  },
+  {
+    "title": "Google Cloud介绍了对PostgreSQL核心功能的工作",
+    "link": "https://www.infoq.cn/article/2dOQmLigLm6DSDMxDxFm?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 10:00:00 GMT",
+    "published_iso": "2026-04-15T10:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/2dOQmLigLm6DSDMxDxFm?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:44:59.832337+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/8d/7a/8d0070e1eff36a60810b24823dfc487a.jpg"
+  },
+  {
+    "title": "HeteroFlow 异构算力调度平台",
+    "link": "https://www.oschina.net/news/421192",
+    "published": "Wed, 15 Apr 2026 15:48:48 +0800",
+    "published_iso": "2026-04-15T15:48:48+08:00",
+    "summary": "HeteroFlow v2 企业版 异构算力统一调度平台 — 让每一张国产 GPU 都物尽其用 为什么选择 HeteroFlow？ 在国产 GPU 快速发展的今天，数据中心面临着前所未有的挑战：摩尔线程、海光、寒武纪、昇腾、壁仞、昆仑芯……品牌众多、架构各异，每一家都有独立的驱动和管理工具。算力碎片化、资源利用率低、运维成本高企，已经成...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:44:58.445205+00:00"
+  },
+  {
+    "title": "Fastify v5.8.5 发布，极速 Node.js Web 框架",
+    "link": "https://www.oschina.net/news/421188/fastify-5-8-5-released",
+    "published": "Wed, 15 Apr 2026 15:31:45 +0800",
+    "published_iso": "2026-04-15T15:31:45+08:00",
+    "summary": "Fastify 是一个高度专注于以最少开销和强大的插件架构为开发者提供最佳体验的 Node.js Web 框架，速度极快，它的灵感来源于 Hapi 和 Express。 Fastify v5.8.5 现已发布，本此更新带来以下内容： Security Release 此更新修复了 CVE-2026-33806 和 GHSA-247c-9743-5963 漏洞。 What&apos;s Changed chore：修复 port parsing...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:44:58.430714+00:00"
+  },
+  {
+    "title": "金融级 Al Coding 落地实践：从“氛围”编程到“严谨”开发｜QCon北京",
+    "link": "https://www.infoq.cn/article/w0YZvXhyz3CjRPFO0VE3?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 10:00:00 GMT",
+    "published_iso": "2026-04-15T10:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/w0YZvXhyz3CjRPFO0VE3?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:44:09.507772+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/33/d0/330b176f8c3fedae3d8672ef7fb8d5d0.jpg"
+  },
+  {
+    "title": "360doc关停之后：蔡智谈AI时代个人知识管理的商业重构",
+    "link": "https://www.infoq.cn/article/h5FJUJKYUDYjdyaOpNBT?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 10:39:02 GMT",
+    "published_iso": "2026-04-15T10:39:02+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/h5FJUJKYUDYjdyaOpNBT?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:44:09.271213+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/4b/69/4b7cb6eff3090c3eaef2c4f6bf96f569.jpg"
+  },
+  {
+    "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知",
+    "link": "https://www.qbitai.com/2026/04/401190.html",
+    "published": "Tue, 14 Apr 2026 10:19:19 +0000",
+    "published_iso": "2026-04-14T10:19:19+00:00",
+    "summary": "推进人工智能人才培养和应用创新，统筹谋划基础环境和创新生态建设，系统构建智能时代的教育体系。",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:44:08.841782+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/05694ae1b08b0cb3b84ba22f5a9a02e2.jpeg"
+  },
+  {
+    "title": "荣耀PC家族大爆发！荣耀“打洲本”“养虾本”集中亮相",
+    "link": "https://www.qbitai.com/2026/04/401202.html",
+    "published": "Tue, 14 Apr 2026 13:12:17 +0000",
+    "published_iso": "2026-04-14T13:12:17+00:00",
+    "summary": "首创“养虾本”，荣耀AI PC迈入3.0时代",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:44:08.077248+00:00",
+    "image_url": "http://www.qbitai.com/wp-content/uploads/2019/06/200-100x100.jpg"
+  },
+  {
+    "title": "以 Nano-vLLM 为例，深入理解 LLM 推理引擎",
+    "link": "https://my.oschina.net/IDP/blog/19575350",
+    "published": "Wed, 15 Apr 2026 16:08:14 +0800",
+    "published_iso": "2026-04-15T16:08:14+08:00",
+    "summary": "这篇文章没有停留在理论层面，而是深入 Nano-vLLM ------ 一个由 DeepSeek 贡献者开源的、仅 1200 行代码却完整实现 vLLM 核心机制的推理引擎。从生产者 - 消费者调度器如何平衡吞吐量与延迟，到 BlockManager 如何通过哈希实现前缀缓存，再到张量并行下 Leader-Worker 的共享内存通信，文章用清晰的工程视角拆解了从提示...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:44:07.512183+00:00"
+  },
+  {
+    "title": "Safari 新增 scrollend 事件支持，补齐主流浏览器兼容版图",
+    "link": "https://www.infoq.cn/article/Jfw4M9Ipiwkr36CUTguw?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 11:00:00 GMT",
+    "published_iso": "2026-04-15T11:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/Jfw4M9Ipiwkr36CUTguw?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:36:32.812585+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/7d/c7/7d8cab74105ca98ea8yy1e4a58262ac7.jpg"
+  },
+  {
+    "title": "Agent 下一战，决胜“记忆”之巅——AICon 深度专题前瞻",
+    "link": "https://www.infoq.cn/article/BFfOpHfuRzyMGE4ZL7lU?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 11:11:49 GMT",
+    "published_iso": "2026-04-15T11:11:49+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/BFfOpHfuRzyMGE4ZL7lU?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:36:32.756425+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/51/14/5150bc196ac5e7109943fc734e5bae14.png"
+  },
+  {
+    "title": "黄仁勋率先开源量子AI大模型",
+    "link": "https://www.qbitai.com/2026/04/401351.html",
+    "published": "Wed, 15 Apr 2026 04:45:55 +0000",
+    "published_iso": "2026-04-15T04:45:55+00:00",
+    "summary": "“AI会是量子计算机的操作系统”",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:36:32.643555+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/b6f5751935fec64b026214ee2e0e8e72.webp"
+  },
+  {
+    "title": "死敌爆料是狠！OpenAI内部信阴阳Claude营收注水80亿，然后泄露了…",
+    "link": "https://www.qbitai.com/2026/04/401333.html",
+    "published": "Wed, 15 Apr 2026 03:22:09 +0000",
+    "published_iso": "2026-04-15T03:22:09+00:00",
+    "summary": "Anthropic年化收入掺水80亿",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:36:32.521095+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/59cc20c35170f427491ed2515dde719a.png"
+  },
+  {
+    "title": "百度 Create 大会官宣三大核心看点，国内最大 AI 开发者嘉年华 5 月北京揭幕",
+    "link": "https://www.oschina.net/news/421217",
+    "published": "Wed, 15 Apr 2026 16:47:26 +0800",
+    "published_iso": "2026-04-15T16:47:26+08:00",
+    "summary": "5月13日至14日，国内最大规模的AI开发者嘉年华——Create2026百度AI开发者大会将在北京拉开帷幕。本届大会以“万物一体”为主题，首次将“Create百度AI开发者大会”与“云智大会”合二为一，集中展示百度智能云AI Infra与Agent Infra重大技术突破、“超级个体”生产力工具链、龙虾全家桶全场景智能体验三大核心看点。对于...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:36:31.779938+00:00"
+  },
+  {
+    "title": "新Vidu Q3参考生，这是冲着「剧」来的！万物皆可参考：特效音效场景都备好了",
+    "link": "https://www.qbitai.com/2026/04/401367.html",
+    "published": "Wed, 15 Apr 2026 05:06:17 +0000",
+    "published_iso": "2026-04-15T05:06:17+00:00",
+    "summary": "参考生的纪录，Vidu自己超越自己",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:36:01.589753+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/13d94730e6cc371bc07a24106f0bbbcf.png"
+  },
+  {
+    "title": "浏览器原地变龙虾！Chrome上线Skills，技能一键复用帮你干活",
+    "link": "https://www.qbitai.com/2026/04/401389.html",
+    "published": "Wed, 15 Apr 2026 05:46:10 +0000",
+    "published_iso": "2026-04-15T05:46:10+00:00",
+    "summary": "浏览器纷纷Agent化",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:36:01.424435+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/7a7b6ef4850950c9dbda06c607563375.webp"
+  },
+  {
+    "title": "Etsy 将拥有 1000 个分片、425 TB 数据的 MySQL 分片架构迁移至 Vitess",
+    "link": "https://www.infoq.cn/article/ZCHjdm7EEHQJaZr7aPxz?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 13:00:00 GMT",
+    "published_iso": "2026-04-15T13:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/ZCHjdm7EEHQJaZr7aPxz?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:36:01.003815+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/23/44/2313c51a44066a07483a380195962d44.jpg"
+  },
+  {
+    "title": "Anthropic 推出 Claude Mythos 预览版，强化网络安全，仅限合作方访问",
+    "link": "https://www.infoq.cn/article/0ERlUO96S3XjvTgekpru?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 14:00:00 GMT",
+    "published_iso": "2026-04-15T14:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/0ERlUO96S3XjvTgekpru?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:36:00.950875+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/08/41/085700e2c3c8191a2ec20cd4d7707841.png"
+  },
+  {
+    "title": "Git for Windows 2.53.0(3) 发布",
+    "link": "https://www.oschina.net/news/421227",
+    "published": "Wed, 15 Apr 2026 17:13:49 +0800",
+    "published_iso": "2026-04-15T17:13:49+08:00",
+    "summary": "Git for Windows v2.53.0(3) 现已发布。这是一个安全修复版本，解决了 CVE-2026-32631 漏洞： CVE-2026-32631，Git for Windows：当用户克隆包含指向网络驱动器的符号链接的仓库时，Git 会在检出过程中跟随这些符号链接，导致 Windows 系统透明地执行 NTLM 身份验证，并将用户的 NTLMv2 哈希值泄露给攻击者控制的服务器。...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:36:00.229845+00:00"
+  },
+  {
+    "title": "智元联合北大、智源实现人形机器人自主打乒乓",
+    "link": "https://www.infoq.cn/article/tdHRjhHFIPYA3X7c0ji1?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 15:44:38 GMT",
+    "published_iso": "2026-04-15T15:44:38+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/tdHRjhHFIPYA3X7c0ji1?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:25:18.959828+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/1e/91/1ee9ef988c0fb6c7f80ff3dd19180b91.png"
+  },
+  {
+    "title": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
+    "link": "https://www.infoq.cn/article/Y2Vxov2UT0LbMjG5JjF1?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 16:27:45 GMT",
+    "published_iso": "2026-04-15T16:27:45+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/Y2Vxov2UT0LbMjG5JjF1?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:25:18.896280+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/b7/8d/b706884014d8ab1f993b24c177f1888d.png"
+  },
+  {
+    "title": "合肥朋友集合！本周六线下围观模力方舟“口袋龙虾”",
+    "link": "https://www.oschina.net/news/421238",
+    "published": "Wed, 15 Apr 2026 17:40:14 +0800",
+    "published_iso": "2026-04-15T17:40:14+08:00",
+    "summary": "4月18日（本周六），腾讯云开发者社区「龙虾公开课」将落地合肥。 免费线下AI Agent实战课，零基础也能冲！ ✅ 1对1装机指导｜现场实操工坊 ✅ 产品演进+Agent趋势｜真实落地案例 ✅ 办公 / 设计 / 养殖 / 游戏多场景上手 📒 到场还有腾讯限定龙虾周边和龙虾实操指南 ⏰ 13:00 公益装机｜14:00 正式开始 📍 合肥·高...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:25:18.846635+00:00"
+  },
+  {
+    "title": "北电数智发布星火·AI云2.0，以AI系统工程重塑产城发展范式 | 酒仙桥论坛",
+    "link": "https://www.qbitai.com/2026/04/401484.html",
+    "published": "Wed, 15 Apr 2026 07:59:47 +0000",
+    "published_iso": "2026-04-15T07:59:47+00:00",
+    "summary": "立足全球AI创新核心趋势，筑牢国芯AI发展根基",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:25:18.713851+00:00",
+    "image_url": "http://www.qbitai.com/wp-content/uploads/2019/06/200-100x100.jpg"
+  },
+  {
+    "title": "CAAI携手中国人民大学高瓴人工智能学院、英博数科启动高校学院算力支持计划",
+    "link": "https://www.qbitai.com/2026/04/401479.html",
+    "published": "Wed, 15 Apr 2026 07:42:12 +0000",
+    "published_iso": "2026-04-15T07:42:12+00:00",
+    "summary": "以智算为支撑，开启校企协同新篇章",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:25:18.663023+00:00",
+    "image_url": "http://www.qbitai.com/wp-content/uploads/2019/06/200-100x100.jpg"
+  },
+  {
+    "title": "全球首创16cm极致外扩超级机械臂，MOVA扫地机开启清洁新纪元",
+    "link": "https://www.qbitai.com/2026/04/401512.html",
+    "published": "Wed, 15 Apr 2026 13:28:53 +0000",
+    "published_iso": "2026-04-15T13:28:53+00:00",
+    "summary": "16cm极致外扩，主动探入清洁死角",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:25:06.060870+00:00",
+    "image_url": "http://www.qbitai.com/wp-content/themes/liangziwei/imagesnew/head.jpg"
+  },
+  {
+    "title": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+    "link": "https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 16:56:11 GMT",
+    "published_iso": "2026-04-15T16:56:11+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:25:05.890779+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/58/63/5812c3b6998dd705e5bf4ac973e6b363.png"
+  },
+  {
+    "title": "苹果疯狂狙击Vibe Coding 应用的背后，是一场30%佣金保卫战",
+    "link": "https://www.infoq.cn/article/MHcyqXMg4xu16I2xmaeN?utm_source=rss&utm_medium=article",
+    "published": "Wed, 15 Apr 2026 19:00:00 GMT",
+    "published_iso": "2026-04-15T19:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/MHcyqXMg4xu16I2xmaeN?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-15T14:25:05.833952+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/61/8e/6184a160e41fc1bf1da5194f2297ed8e.png"
+  },
+  {
+    "title": "MiniMax M2.7 开源协议引争议：严禁商业用途，开发者质疑“伪开源”",
+    "link": "https://www.oschina.net/news/421258",
+    "published": "Wed, 15 Apr 2026 19:09:32 +0800",
+    "published_iso": "2026-04-15T19:09:32+08:00",
+    "summary": "国产AI大模型厂商MiniMax（稀宇科技）于近日开源了其最新一代模型MiniMax-M2.7，该模型在编程能力基准测试SWE-Pro中取得56.22%的成绩，几乎追平Anthropic的Claude Opus水平。 然而，这本应值得庆贺的技术突破却因开源协议的突然&quot;变脸&quot;在开发者社区引发轩然大波——MiniMax M2.7明确禁止商业用途，除非获得公司书面授权，...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-15T14:25:05.732225+00:00"
+  },
+  {
+    "title": "百度Create大会官宣三大核心看点，国内最大AI开发者嘉年华5月北京揭幕",
+    "link": "https://www.qbitai.com/2026/04/401507.html",
+    "published": "Wed, 15 Apr 2026 08:56:43 +0000",
+    "published_iso": "2026-04-15T08:56:43+00:00",
+    "summary": "一次性获取百度智能云的全栈技术图谱",
+    "source": "量子位",
+    "fetched_at": "2026-04-15T14:25:05.563137+00:00",
+    "image_url": "http://www.qbitai.com/wp-content/uploads/2019/06/200-100x100.jpg"
+  }
+]
