@@ -1,16 +1,12 @@
 import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 import { XMLParser } from "fast-xml-parser";
-import { readFile, writeFile } from "node:fs/promises";
-import { join } from "node:path";
 
 import { NewsItem } from "@/types/news";
 import { rssSources, RssSource } from "@/services/news/rssSources";
+import { readNews, writeNews, writeMeta } from "@/lib/storage";
 
 export const runtime = "nodejs";
-
-const LOCAL_JSON_FILE = join(process.cwd(), "ai_news.json");
-const LOCAL_META_FILE = join(process.cwd(), "ai_news_meta.json");
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -239,54 +235,6 @@ function dedupeByLink(items: NewsItem[]): NewsItem[] {
   });
 }
 
-type LocalNewsItem = {
-  title?: string;
-  link?: string;
-  published?: string;
-  published_iso?: string;
-  summary?: string;
-  source?: string;
-  fetched_at?: string;
-  image_url?: string;
-};
-
-async function readLocalNews(): Promise<LocalNewsItem[]> {
-  try {
-    const fileContent = await readFile(LOCAL_JSON_FILE, "utf-8");
-    const parsed = JSON.parse(fileContent) as LocalNewsItem[];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
-
-async function saveNewsToLocal(newsItems: NewsItem[]): Promise<number> {
-  const existingNews = await readLocalNews();
-  const existingLinks = new Set(existingNews.map(item => item.link));
-  
-  const newItems: LocalNewsItem[] = newsItems
-    .filter(item => !existingLinks.has(item.readMoreUrl))
-    .map(item => ({
-      title: item.title,
-      link: item.readMoreUrl,
-      published: item.originalPublished || item.publishedAt,
-      published_iso: item.publishedAt,
-      summary: item.summary,
-      source: item.source,
-      fetched_at: new Date().toISOString(),
-      image_url: item.imageUrl
-    }));
-  
-  const merged = [...newItems, ...existingNews];
-  await writeFile(LOCAL_JSON_FILE, JSON.stringify(merged, null, 2));
-  
-  await writeFile(LOCAL_META_FILE, JSON.stringify({
-    last_refreshed_at: new Date().toISOString()
-  }, null, 2));
-  
-  return newItems.length;
-}
-
 function getDaysAgoDate(days: number): Date {
   const date = new Date();
   date.setDate(date.getDate() - days);
@@ -314,8 +262,8 @@ export async function POST() {
       (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     );
 
-    const existingNews = await readLocalNews();
-    const existingLinks = new Set(existingNews.map(item => item.link));
+    const existingNews = await readNews();
+    const existingLinks = new Set(existingNews.map(item => item.readMoreUrl));
     
     const unfetchedNews = sorted.filter(item => !existingLinks.has(item.readMoreUrl));
     
@@ -333,7 +281,6 @@ export async function POST() {
     const last7DaysNews = unfetchedNews.filter(item => isWithinDays(item.publishedAt, 7));
     
     let selectedNews: NewsItem[];
-    let message: string;
     let isExpandedRange = false;
     
     if (todayNews.length > 0) {
@@ -349,10 +296,19 @@ export async function POST() {
       isExpandedRange = true;
     }
     
-    const newlyAddedCount = await saveNewsToLocal(selectedNews);
+    const newlyAddedCount = selectedNews.length;
+    
+    if (newlyAddedCount > 0) {
+      const mergedNews = [...selectedNews, ...existingNews];
+      await writeNews(mergedNews);
+      await writeMeta({
+        last_refreshed_at: new Date().toISOString()
+      });
+    }
     
     revalidatePath("/");
 
+    let message: string;
     if (newlyAddedCount === 0) {
       if (last7DaysNews.length === 0) {
         message = "7日内最新资讯均已获取，暂无新资讯";
