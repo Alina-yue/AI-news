@@ -306,10 +306,11 @@ export async function POST() {
     if (newlyAddedCount > 0) {
       const mergedNews = [...selectedNews, ...existingNews];
       await writeNews(mergedNews);
-      await writeMeta({
-        last_refreshed_at: new Date().toISOString()
-      });
     }
+    
+    await writeMeta({
+      last_refreshed_at: new Date().toISOString()
+    });
     
     revalidatePath("/");
 
