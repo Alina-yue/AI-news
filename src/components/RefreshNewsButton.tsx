@@ -15,7 +15,7 @@ type RefreshApiResponse = {
 };
 
 type RefreshNewsButtonProps = {
-  onRefresh?: (articles: NewsItem[], lastRefreshedAt: string) => void;
+  onRefresh?: (articles: NewsItem[]) => void;
 };
 
 export function RefreshNewsButton({ onRefresh }: RefreshNewsButtonProps) {
@@ -34,11 +34,10 @@ export function RefreshNewsButton({ onRefresh }: RefreshNewsButtonProps) {
 
       setStatusText(result.message || "刷新成功");
       
-      if (onRefresh && result.articles && result.lastRefreshedAt) {
+      if (onRefresh && result.articles) {
         const articles = result.articles as NewsItem[];
-        const lastRefreshedAt = result.lastRefreshedAt as string;
         startTransition(() => {
-          onRefresh(articles, lastRefreshedAt);
+          onRefresh(articles);
         });
       }
     } catch {
