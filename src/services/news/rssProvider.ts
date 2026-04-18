@@ -198,14 +198,7 @@ export async function getLastRefreshTime(): Promise<string | null> {
     }
 
     const latest = new Date(Math.max(...timestamps));
-    return new Intl.DateTimeFormat('zh-CN', {
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-    }).format(latest);
+    return latest.toISOString();
   } catch {
     return null;
   }
