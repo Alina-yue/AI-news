@@ -178,16 +178,11 @@ export async function getLastRefreshTime(): Promise<string | null> {
   if (meta.last_refreshed_at) {
     const ts = new Date(meta.last_refreshed_at).getTime();
     if (Number.isFinite(ts)) {
-      return new Intl.DateTimeFormat('zh-CN', {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit',
-      }).format(new Date(ts));
+      return meta.last_refreshed_at;
     }
   }
+  return null;
+}
 
   try {
     const news = await readNews();
