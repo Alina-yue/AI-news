@@ -1,12 +1,19 @@
-import { kv } from '@vercel/kv';
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { NewsItem } from '@/types/news';
 
 const LOCAL_JSON_FILE = join(process.cwd(), 'ai_news.json');
 const LOCAL_META_FILE = join(process.cwd(), 'ai_news_meta.json');
-const KV_KEY_NEWS = 'ai_news';
-const KV_KEY_META = 'ai_news_meta';
+
+let supabase: SupabaseClient | null = null;
+
+if (process.env.SUPABASE_URL && process.env.SUPABASE_ANON_KEY) {
+  supabase = createClient(
+    process.env.SUPABASE_URL,
+    process.env.SUPABASE_ANON_KEY
+  );
+}
 
 export type LocalNewsItem = {
   title?: string;
@@ -36,30 +43,30 @@ function stripHtml(input: string): string {
 }
 
 export async function readNews(): Promise<NewsItem[]> {
-  if (process.env.VERCEL_ENV) {
-    return readNewsFromKV();
+  if (supabase) {
+    return readNewsFromSupabase();
   }
   return readNewsFromFile();
 }
 
 export async function writeNews(items: NewsItem[]): Promise<void> {
-  if (process.env.VERCEL_ENV) {
-    await writeNewsToKV(items);
+  if (supabase) {
+    await writeNewsToSupabase(items);
   } else {
     await writeNewsToFile(items);
   }
 }
 
 export async function readMeta(): Promise<LocalMeta> {
-  if (process.env.VERCEL_ENV) {
-    return readMetaFromKV();
+  if (supabase) {
+    return readMetaFromSupabase();
   }
   return readMetaFromFile();
 }
 
 export async function writeMeta(meta: LocalMeta): Promise<void> {
-  if (process.env.VERCEL_ENV) {
-    await writeMetaToKV(meta);
+  if (supabase) {
+    await writeMetaToSupabase(meta);
   } else {
     await writeMetaToFile(meta);
   }
@@ -93,34 +100,79 @@ async function writeMetaToFile(meta: LocalMeta): Promise<void> {
   await writeFile(LOCAL_META_FILE, JSON.stringify(meta, null, 2));
 }
 
-async function readNewsFromKV(): Promise<NewsItem[]> {
+async function readNewsFromSupabase(): Promise<NewsItem[]> {
   try {
-    const data = await kv.get<string>(KV_KEY_NEWS);
-    if (!data) return [];
-    const parsed = JSON.parse(data) as LocalNewsItem[];
-    return mapLocalToNewsItem(parsed);
+    if (!supabase) return [];
+    
+    const { data, error } = await supabase
+      .from('news_items')
+      .select('*')
+      .order('published_at', { ascending: false });
+    
+    if (error || !data) return [];
+    
+    return data.map((item) => ({
+      id: item.id,
+      title: item.title,
+      summary: item.summary || '暂无摘要，点击查看原文。',
+      imageUrl: item.image_url || '',
+      publishedAt: item.published_at,
+      originalPublished: item.original_published,
+      readMoreUrl: item.read_more_url,
+      source: item.source || 'RSS',
+    }));
   } catch {
     return [];
   }
 }
 
-async function writeNewsToKV(items: NewsItem[]): Promise<void> {
-  const localItems = items.map(newsItemToLocal);
-  await kv.set(KV_KEY_NEWS, JSON.stringify(localItems));
+async function writeNewsToSupabase(items: NewsItem[]): Promise<void> {
+  if (!supabase) return;
+  
+  for (const item of items) {
+    await supabase
+      .from('news_items')
+      .upsert({
+        id: item.id,
+        title: item.title,
+        summary: item.summary,
+        image_url: item.imageUrl,
+        published_at: item.publishedAt,
+        original_published: item.originalPublished,
+        read_more_url: item.readMoreUrl,
+        source: item.source,
+      });
+  }
 }
 
-async function readMetaFromKV(): Promise<LocalMeta> {
+async function readMetaFromSupabase(): Promise<LocalMeta> {
   try {
-    const data = await kv.get<string>(KV_KEY_META);
-    if (!data) return {};
-    return JSON.parse(data) as LocalMeta;
+    if (!supabase) return {};
+    
+    const { data, error } = await supabase
+      .from('news_meta')
+      .select('*')
+      .single();
+    
+    if (error || !data) return {};
+    
+    return {
+      last_refreshed_at: data.last_refreshed_at,
+    };
   } catch {
     return {};
   }
 }
 
-async function writeMetaToKV(meta: LocalMeta): Promise<void> {
-  await kv.set(KV_KEY_META, JSON.stringify(meta));
+async function writeMetaToSupabase(meta: LocalMeta): Promise<void> {
+  if (!supabase) return;
+  
+  await supabase
+    .from('news_meta')
+    .upsert({
+      id: 'default',
+      last_refreshed_at: meta.last_refreshed_at,
+    });
 }
 
 function mapLocalToNewsItem(items: LocalNewsItem[]): NewsItem[] {

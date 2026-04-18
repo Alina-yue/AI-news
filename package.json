@@ -11,6 +11,7 @@
     "deploy:prod": "vercel --prod"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.103.3",
     "@vercel/kv": "^3.0.0",
     "fast-xml-parser": "^5.5.12",
     "next": "^16.2.3",
