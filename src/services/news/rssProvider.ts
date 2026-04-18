@@ -181,9 +181,7 @@ export async function getLastRefreshTime(): Promise<string | null> {
       return meta.last_refreshed_at;
     }
   }
-  return null;
-}
-
+  
   try {
     const news = await readNews();
     if (news.length === 0) {
