@@ -1,5 +1,112 @@
 [
   {
+    "title": "Karpathy 亲手终结了 RAG 的草莽时代",
+    "link": "https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 17:20:44 GMT",
+    "published_iso": "2026-04-17T17:20:44+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/5dhOzeriuezQajEPC41Y?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T07:15:43.161986+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/84/7f/847332bc543168de2a9f06ae049af77f.jpg"
+  },
+  {
+    "title": "SQLAlchemy 2.1.0b2 发布",
+    "link": "https://www.oschina.net/news/430721/sqlalchemy-2-1-0b2-released",
+    "published": "Fri, 17 Apr 2026 16:13:56 +0800",
+    "published_iso": "2026-04-17T16:13:56+08:00",
+    "summary": "SQLAlchemy 2.1 系列的第二个测试版现已发布。 2.1.0b2 版本新增了对 mssql-python DBAPI 的支持，这是由微软直接开发的 Microsoft SQL Server 驱动程序。此外还引入了其他一些功能和错误修复。 SQLAlchemy 是一个 Python 的 SQL 工具包以及数据库对象映射 (ORM) 框架。它包含整套企业级持久化模式，专门用于高效和高性能...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T07:15:42.167278+00:00"
+  },
+  {
+    "title": "OpenAI 也把工程师经验“蒸馏”进 skill 了！Harness 爆文作者曝内部玩法：一个百万行代码系统，全程零人工编码和审核",
+    "link": "https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 16:01:16 GMT",
+    "published_iso": "2026-04-17T16:01:16+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/xeXddcuzu78D7mC5wyBy?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T07:15:43.296415+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/1e/07/1ec5c9f32d51eaf98e12d9868ae9ba07.png"
+  },
+  {
+    "title": ":fire: Solon AI v3.13 发布（智能体开发框架，支持 Java8 到 Java26）",
+    "link": "https://www.oschina.net/news/430715/solon-ai-3-13-released",
+    "published": "Fri, 17 Apr 2026 15:56:51 +0800",
+    "published_iso": "2026-04-17T15:56:51+08:00",
+    "summary": "Solon AI Solon AI 是一款面向 Java 开发者 的全栈智能体（Agent）应用开发框架。它秉承 Solon 家族一贯的“克制、高效、开放”理念，向上抽象统一接口屏蔽模型差异，向下深度集成向量库、MCP 协议与复杂流控制。 核心理念： 一份代码，跨模型运行；极致轻量，从 Java 8 纵跳至 Java 26。 核心架构图谱： 维度 核心能力 ...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T07:15:42.550651+00:00"
+  },
+  {
+    "title": "星工聚将：从“物理对齐”出发，重新探索具身 AGI 的技术路",
+    "link": "https://www.infoq.cn/article/1WMZt5S8lGzM1MkdzR2o?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 15:24:00 GMT",
+    "published_iso": "2026-04-17T15:24:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/1WMZt5S8lGzM1MkdzR2o?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T07:15:43.600531+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/9a/bb/9aed92673a1572bd28a9286e6ac084bb.png"
+  },
+  {
+    "title": "AI 驱动的数据库心脏：如何让云原生「自我进化」",
+    "link": "https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 17:27:50 GMT",
+    "published_iso": "2026-04-17T17:27:50+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/U4zazqfjWb11OTq7OeP6?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T06:29:10.326340+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/db/7e/dbyycedf391b2db23805ea437f069a7e.jpg"
+  },
+  {
+    "title": "魏建军发布会开炮：专属电动车平台纯粹伪命题，友商回去立马向我们学习",
+    "link": "https://www.qbitai.com/2026/04/402636.html",
+    "published": "Sat, 18 Apr 2026 01:10:09 +0000",
+    "published_iso": "2026-04-18T01:10:09+00:00",
+    "summary": "不以尺寸定义汽车平台",
+    "source": "量子位",
+    "fetched_at": "2026-04-18T06:29:09.633361+00:00",
+    "image_url": "https://i.qbitai.com/wp-content/uploads/2026/04/4b3fcd73d5d3188561677e743520d14c.jpeg"
+  },
+  {
+    "title": "谷歌基于Apache 2.0协议开源Gemma 4，搭载多模态与智能体能力",
+    "link": "https://www.infoq.cn/article/ry64GrNLAEEf1qdZABb0?utm_source=rss&utm_medium=article",
+    "published": "Sat, 18 Apr 2026 10:00:00 GMT",
+    "published_iso": "2026-04-18T10:00:00+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/ry64GrNLAEEf1qdZABb0?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T06:29:09.503915+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/47/a2/474ec36d7a6772da23ec5895c33daba2.jpg"
+  },
+  {
+    "title": "这可能是近十年最重要的 C++ 版本更新，反射、契约、并发模型全面进化",
+    "link": "https://www.infoq.cn/article/mTR5V1FNI2HdcxOxB8fW?utm_source=rss&utm_medium=article",
+    "published": "Sat, 18 Apr 2026 14:12:37 GMT",
+    "published_iso": "2026-04-18T14:12:37+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/mTR5V1FNI2HdcxOxB8fW?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-18T06:29:09.395139+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/d9/cd/d9af02c8976cd12ec38fa4e8db011ecd.png"
+  },
+  {
+    "title": "技术日报｜superpowers 突破 15.7 万星重夺榜首，Google AI 文件检测工具magika强势入榜",
+    "link": "https://www.oschina.net/news/431421",
+    "published": "Sat, 18 Apr 2026 09:22:53 +0800",
+    "published_iso": "2026-04-18T09:22:53+08:00",
+    "summary": "🌟 TrendForge 每日精选 - 发现最具潜力的开源项目 📊 今日共收录 15 个热门项目 🌐 智能中文翻译版 - 项目描述已自动翻译，便于理解 🏆 今日最热项目 Top 10 🥇 obra/superpowers 项目简介: Claude Code 超级能力：核心技能库 今日新增: 1713 * 总星数: 157744 * 语言: Shell https://github.com/obra/super...",
+    "source": "OSCHINA AI",
+    "fetched_at": "2026-04-18T06:29:08.995584+00:00"
+  },
+  {
+    "title": "智能体企业架构浮现：数据、模型、系统之外的控制平面｜ 技术趋势",
+    "link": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
+    "published": "Fri, 17 Apr 2026 19:20:35 GMT",
+    "published_iso": "2026-04-17T19:20:35+00:00",
+    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
+    "source": "InfoQ AI",
+    "fetched_at": "2026-04-17T13:13:19.227306+00:00",
+    "image_url": "https://static001.infoq.cn/resource/image/77/2e/7740c8f0711c741e149bf2b5efdb2a2e.png"
+  },
+  {
     "title": "借助 Cortex Code 加速构建：全面开放，轻松应对更复杂任务 ｜ 技术趋势",
     "link": "https://www.infoq.cn/article/eZmMIRcKHQ9KR791b8lF?utm_source=rss&utm_medium=article",
     "published": "Fri, 17 Apr 2026 19:59:11 GMT",
@@ -18,16 +125,6 @@
     "source": "InfoQ AI",
     "fetched_at": "2026-04-17T13:13:19.101243+00:00",
     "image_url": "https://static001.infoq.cn/resource/image/bb/e5/bb819362b79e0c2fb8bf5ef8ca53a9e5.png"
-  },
-  {
-    "title": "智能体企业架构浮现：数据、模型、系统之外的控制平面｜ 技术趋势",
-    "link": "https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&utm_medium=article",
-    "published": "Fri, 17 Apr 2026 19:20:35 GMT",
-    "published_iso": "2026-04-17T19:20:35+00:00",
-    "summary": "<div align=\"right\"><a href=\"https://www.infoq.cn/article/q0DODc1eoaE6xWUNA9ZG?utm_source=rss&amp;utm_medium=article\">点击查看原文></a></div>",
-    "source": "InfoQ AI",
-    "fetched_at": "2026-04-17T13:13:19.227306+00:00",
-    "image_url": "https://static001.infoq.cn/resource/image/77/2e/7740c8f0711c741e149bf2b5efdb2a2e.png"
   },
   {
     "title": "Ant Design 6.3.6 发布，企业级 UI 设计语言和 React 实现",
