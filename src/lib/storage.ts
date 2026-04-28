@@ -2,6 +2,7 @@ import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { NewsItem } from '@/types/news';
+import { Note, NoteInput } from '@/types/note';
 
 const LOCAL_JSON_FILE = join(process.cwd(), 'ai_news.json');
 const LOCAL_META_FILE = join(process.cwd(), 'ai_news_meta.json');
