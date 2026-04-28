@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 
 import { formatPublishTime } from "@/lib/date";
 import { NewsItem } from "@/types/news";
+import { NoteModal } from "./NoteModal";
 
 const DEFAULT_IMAGE = "https://images.unsplash.com/photo-1677442136019-21780ecad998?w=600&h=400&fit=crop";
 
@@ -15,14 +16,16 @@ type NewsCardProps = {
   onRemove?: (id: string) => void;
   isNew?: boolean;
   showFavorite?: boolean;
+  showNote?: boolean;
 };
 
-export function NewsCard({ article, showReadTime = false, onRemove, isNew = false, showFavorite = false }: NewsCardProps) {
+export function NewsCard({ article, showReadTime = false, onRemove, isNew = false, showFavorite = false, showNote = false }: NewsCardProps) {
   const [isRead, setIsRead] = useState(false);
   const [readTime, setReadTime] = useState<string | null>(null);
   const [showNewIndicator, setShowNewIndicator] = useState(isNew && !isRead);
   const [imageUrl, setImageUrl] = useState(article.imageUrl || DEFAULT_IMAGE);
   const [isFavorited, setIsFavorited] = useState(false);
+  const [showNoteModal, setShowNoteModal] = useState(false);
 
   useEffect(() => {
     const historyData = localStorage.getItem("readingHistory") || "{}";
@@ -119,6 +122,18 @@ export function NewsCard({ article, showReadTime = false, onRemove, isNew = fals
           >
             阅读更多
           </Link>
+          {showNote && (
+            <button 
+              className="news-card-note-btn" 
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowNoteModal(true);
+              }}
+              title="添加笔记"
+            >
+              📝
+            </button>
+          )}
           {showFavorite && (
             <button 
               className={`news-card-favorite ${isFavorited ? 'news-card-favorite-active' : ''}`} 
@@ -139,6 +154,14 @@ export function NewsCard({ article, showReadTime = false, onRemove, isNew = fals
           )}
         </div>
       </div>
+      
+      {showNoteModal && (
+        <NoteModal
+          news={article}
+          onClose={() => setShowNoteModal(false)}
+          onSave={() => {}}
+        />
+      )}
     </article>
   );
 }

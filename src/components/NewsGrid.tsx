@@ -9,12 +9,13 @@ type NewsGridProps = {
   articles: NewsItem[];
   newArticleIds?: Set<string>;
   showFavorite?: boolean;
+  showNote?: boolean;
 };
 
 const PAGE_SIZE = 6;
 const MAX_VISIBLE_PAGES = 5;
 
-export function NewsGrid({ articles, newArticleIds, showFavorite = false }: NewsGridProps) {
+export function NewsGrid({ articles, newArticleIds, showFavorite = false, showNote = false }: NewsGridProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = Math.ceil(articles.length / PAGE_SIZE);
   const startIndex = (currentPage - 1) * PAGE_SIZE;
@@ -125,6 +126,7 @@ export function NewsGrid({ articles, newArticleIds, showFavorite = false }: News
             article={article} 
             isNew={newArticleIds?.has(article.id) || false}
             showFavorite={showFavorite}
+            showNote={showNote}
           />
         ))}
       </section>

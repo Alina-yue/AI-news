@@ -6,6 +6,7 @@ import { NewsGrid } from "./NewsGrid";
 import { RefreshNewsButton } from "./RefreshNewsButton";
 import { HistoryPanel } from "./HistoryPanel";
 import { FavoritesPanel } from "./FavoritesPanel";
+import { NotesPanel } from "./NotesPanel";
 import { ParticleBackground } from "./ParticleBackground";
 import { NewsItem } from "@/types/news";
 
@@ -13,7 +14,7 @@ type ClientPageProps = {
   articles: NewsItem[];
 };
 
-type TabType = "news" | "history" | "favorites";
+type TabType = "news" | "history" | "favorites" | "notes";
 
 export function ClientPage({ articles }: ClientPageProps) {
   const [activeTab, setActiveTab] = useState<TabType>("news");
@@ -71,15 +72,24 @@ export function ClientPage({ articles }: ClientPageProps) {
             <span className="tab-icon">♥</span>
             <span className="tab-text">我的收藏</span>
           </button>
+          <button
+            className={`tab ${activeTab === "notes" ? "tab-active" : ""}`}
+            onClick={() => setActiveTab("notes")}
+          >
+            <span className="tab-icon">📝</span>
+            <span className="tab-text">我的笔记</span>
+          </button>
         </div>
       </div>
 
       {activeTab === "news" ? (
-        <NewsGrid articles={displayArticles} newArticleIds={newArticleIds} showFavorite={true} />
+        <NewsGrid articles={displayArticles} newArticleIds={newArticleIds} showFavorite={true} showNote={true} />
       ) : activeTab === "history" ? (
         <HistoryPanel allArticles={displayArticles} />
-      ) : (
+      ) : activeTab === "favorites" ? (
         <FavoritesPanel />
+      ) : (
+        <NotesPanel allArticles={displayArticles} />
       )}
     </main>
   );

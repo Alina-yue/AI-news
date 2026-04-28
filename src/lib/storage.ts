@@ -222,3 +222,116 @@ function newsItemToLocal(item: NewsItem): LocalNewsItem {
     image_url: item.imageUrl,
   };
 }
+
+// ==================== 笔记功能 ====================
+
+export async function readNotes(): Promise<Note[]> {
+  if (supabase) {
+    return readNotesFromSupabase();
+  }
+  return readNotesFromFile();
+}
+
+export async function writeNote(note: NoteInput): Promise<Note> {
+  const newNote: Note = {
+    id: `note-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+    ...note,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+  };
+  
+  if (supabase) {
+    await writeNoteToSupabase(newNote);
+  } else {
+    await writeNoteToFile(newNote);
+  }
+  
+  return newNote;
+}
+
+export async function updateNote(id: string, content: string): Promise<void> {
+  if (supabase) {
+    await supabase
+      .from('notes')
+      .update({ content, updated_at: new Date().toISOString() })
+      .eq('id', id);
+  } else {
+    const notes = await readNotesFromFile();
+    const index = notes.findIndex(n => n.id === id);
+    if (index !== -1) {
+      notes[index].content = content;
+      notes[index].updatedAt = new Date().toISOString();
+      await writeNotesToFile(notes);
+    }
+  }
+}
+
+export async function deleteNote(id: string): Promise<void> {
+  if (supabase) {
+    await supabase.from('notes').delete().eq('id', id);
+  } else {
+    const notes = await readNotesFromFile();
+    const filtered = notes.filter(n => n.id !== id);
+    await writeNotesToFile(filtered);
+  }
+}
+
+// 本地文件存储
+const LOCAL_NOTES_FILE = join(process.cwd(), 'ai_notes.json');
+
+async function readNotesFromFile(): Promise<Note[]> {
+  try {
+    const fileContent = await readFile(LOCAL_NOTES_FILE, 'utf-8');
+    return JSON.parse(fileContent) as Note[];
+  } catch {
+    return [];
+  }
+}
+
+async function writeNoteToFile(note: Note): Promise<void> {
+  const notes = await readNotesFromFile();
+  notes.unshift(note);
+  await writeFile(LOCAL_NOTES_FILE, JSON.stringify(notes, null, 2));
+}
+
+async function writeNotesToFile(notes: Note[]): Promise<void> {
+  await writeFile(LOCAL_NOTES_FILE, JSON.stringify(notes, null, 2));
+}
+
+// Supabase 存储
+async function readNotesFromSupabase(): Promise<Note[]> {
+  try {
+    if (!supabase) return [];
+    
+    const { data, error } = await supabase
+      .from('notes')
+      .select('*')
+      .order('created_at', { ascending: false });
+    
+    if (error || !data) return [];
+    
+    return data.map((item) => ({
+      id: item.id,
+      newsId: item.news_id,
+      newsTitle: item.news_title,
+      content: item.content,
+      createdAt: item.created_at,
+      updatedAt: item.updated_at,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+async function writeNoteToSupabase(note: Note): Promise<void> {
+  if (!supabase) return;
+  
+  await supabase.from('notes').insert({
+    id: note.id,
+    news_id: note.newsId,
+    news_title: note.newsTitle,
+    content: note.content,
+    created_at: note.createdAt,
+    updated_at: note.updatedAt,
+  });
+}
